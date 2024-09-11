@@ -3,3 +3,4 @@
 *.egg-info
 
 data/open-scivis-datasets/
+data/ome-zarr-open-scivis-datasets/
