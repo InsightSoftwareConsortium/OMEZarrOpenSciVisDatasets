@@ -9,6 +9,7 @@ version = "0.1.0"
 [tasks]
 download = { cmd = "python scripts/download.py", description = "Download the Open SciVis Datasets" }
 gen-ome-zarrs = { cmd = "./scripts/gen-ome-zarrs.sh", description = "Generate the OME-Zarr Open SciVis Datasets" }
+gen-datasets-json = "python scripts/gen-datasets-json.py"
 
 [dependencies]
 python = ">=3.12.5,<4"
