@@ -10,10 +10,12 @@ version = "0.1.0"
 download = { cmd = "python scripts/download.py", description = "Download the Open SciVis Datasets" }
 gen-ome-zarrs = { cmd = "./scripts/gen-ome-zarrs.sh", description = "Generate the OME-Zarr Open SciVis Datasets" }
 gen-datasets-json = "python scripts/gen-datasets-json.py"
+gen-small-thumbnails = "./scripts/gen-small-thumbnails.sh"
 
 [dependencies]
 python = ">=3.12.5,<4"
 jq = ">=1.7.1,<2"
+libwebp = ">=1.4.0,<2"
 
 [pypi-dependencies]
 httpx = ">=0.27.2, <0.28"
