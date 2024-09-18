@@ -11,6 +11,7 @@ download = { cmd = "python scripts/download.py", description = "Download the Ope
 gen-ome-zarrs = { cmd = "./scripts/gen-ome-zarrs.sh", description = "Generate the OME-Zarr Open SciVis Datasets" }
 gen-datasets-json = "python scripts/gen-datasets-json.py"
 gen-small-thumbnails = "./scripts/gen-small-thumbnails.sh"
+gen-readme = "python ./scripts/gen-readme.py"
 
 [dependencies]
 python = ">=3.12.5,<4"
