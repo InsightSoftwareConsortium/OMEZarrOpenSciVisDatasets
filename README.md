@@ -1313,8 +1313,19 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 ## Usage
 
-The OME-Zarr Open SciVis Datasets are freely available for download and use by the scientific visualization community. To access the datasets, follow these steps:
-# todo after uploading to S3
+The OME-Zarr Open SciVis Datasets are freely available for use by the scientific visualization community.
+
+### Visualization
+
+Interactive web-based visualization links are available for all datasets (todo after upload).
+
+Additional web-based and desktop visualization tools are listed on the [NGFF Tools Image Viewers](https://ngff.openmicroscopy.org/tools/index.html#image-viewers-with-ome-zarr-support) resource.
+
+### Reading OME-Zarr
+
+#### todo: a simple inline python example after uploading to S3
+
+A number of libraries are available to read OME-Zarr across multiple programming languages. See the [NGFF Tools Libraries](https://ngff.openmicroscopy.org/tools/index.html#libraries-for-reading-writing-ome-zarr-files) list for more information.
 
 ## License
 
