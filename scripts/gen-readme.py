@@ -29,6 +29,10 @@ with open('./README.md', 'w') as fp:
     fp.write("# OME-Zarr Open SciVis Datasets\n")
 
     ome_zarr_intro = """
+![engine](./thumbnails/small/engine.webp)
+
+> The OME-Zarr Open SciVis Datasets project provides the Open SciVis Dataset in a chunked, multi-scale format, encodes metadata in JSON according to the OME-Zarr specification, and hosts the datasets on AWS S3 through the AWS Open Data Program, aiming to serve as a web-based resource for the scientific visualization community to enhance reproducibility and facilitate testing and development of OME-Zarr tools.
+
 ## Introduction
 
 ### OME-Zarr
