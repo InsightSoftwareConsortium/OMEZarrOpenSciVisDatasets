@@ -135,7 +135,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
             fp.write(f"![{dataset_name}]({thumbnail_path})\n")
         else:
             print(f"Warning: No thumbnail found for {dataset_name}.")
-        fp.write(f"{dataset['description']}\n")
+        fp.write(f"\n> {dataset['description']}\n")
         fp.write(f"\n<details>\n<summary>Details</summary>\n\n")
         fp.write(f"**Dataset Name:** {dataset_name}\n\n")
         fp.write(f"**Dataset Type:** {dataset['type']}\n\n")

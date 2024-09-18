@@ -93,7 +93,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 ### 3d_neurons_15_sept_2016
 ![3d_neurons_15_sept_2016](./thumbnails/small/3d_neurons_15_sept_2016.webp)
-The neurons are macaque visual cortical neurons labeled with TdTomato fluorescent proteins.
+
+> The neurons are macaque visual cortical neurons labeled with TdTomato fluorescent proteins.
 
 <details>
 <summary>Details</summary>
@@ -112,7 +113,8 @@ The neurons are macaque visual cortical neurons labeled with TdTomato fluorescen
 
 ### aneurism
 ![aneurism](./thumbnails/small/aneurism.webp)
-Rotational C-arm x-ray scan of the arteries of the right half of a human head. A contrast agent was injected into the blood and an aneurism is present.
+
+> Rotational C-arm x-ray scan of the arteries of the right half of a human head. A contrast agent was injected into the blood and an aneurism is present.
 
 <details>
 <summary>Details</summary>
@@ -131,7 +133,8 @@ Rotational C-arm x-ray scan of the arteries of the right half of a human head. A
 
 ### backpack
 ![backpack](./thumbnails/small/backpack.webp)
-CT scan of a backpack filled with items.
+
+> CT scan of a backpack filled with items.
 
 <details>
 <summary>Details</summary>
@@ -150,7 +153,8 @@ CT scan of a backpack filled with items.
 
 ### beechnut
 ![beechnut](./thumbnails/small/beechnut.webp)
-A microCT scan of a dried beechnut.
+
+> A microCT scan of a dried beechnut.
 
 <details>
 <summary>Details</summary>
@@ -170,6 +174,7 @@ A microCT scan of a dried beechnut.
 ### blunt_fin
 ![blunt_fin](./thumbnails/small/blunt_fin.webp)
 
+> 
 
 <details>
 <summary>Details</summary>
@@ -188,7 +193,8 @@ A microCT scan of a dried beechnut.
 
 ### bonsai
 ![bonsai](./thumbnails/small/bonsai.webp)
-CT scan of a bonsai tree.
+
+> CT scan of a bonsai tree.
 
 <details>
 <summary>Details</summary>
@@ -207,7 +213,8 @@ CT scan of a bonsai tree.
 
 ### boston_teapot
 ![boston_teapot](./thumbnails/small/boston_teapot.webp)
-CT scan of the SIGGRAPH 1989 teapot with a small version of the AVS lobster inside.
+
+> CT scan of the SIGGRAPH 1989 teapot with a small version of the AVS lobster inside.
 
 <details>
 <summary>Details</summary>
@@ -226,7 +233,8 @@ CT scan of the SIGGRAPH 1989 teapot with a small version of the AVS lobster insi
 
 ### bunny
 ![bunny](./thumbnails/small/bunny.webp)
-A CT scan of the Stanford Bunny. The greyscale units are Hounsfield units, denoting electron-density of the subject; the scale units are in millimeters. The scan was completed 28 January 2000.
+
+> A CT scan of the Stanford Bunny. The greyscale units are Hounsfield units, denoting electron-density of the subject; the scale units are in millimeters. The scan was completed 28 January 2000.
 
 <details>
 <summary>Details</summary>
@@ -245,7 +253,8 @@ A CT scan of the Stanford Bunny. The greyscale units are Hounsfield units, denot
 
 ### carp
 ![carp](./thumbnails/small/carp.webp)
-CT scan of a carp fish
+
+> CT scan of a carp fish
 
 <details>
 <summary>Details</summary>
@@ -264,7 +273,8 @@ CT scan of a carp fish
 
 ### chameleon
 ![chameleon](./thumbnails/small/chameleon.webp)
-CT scan of a chameleon.
+
+> CT scan of a chameleon.
 
 <details>
 <summary>Details</summary>
@@ -283,7 +293,8 @@ CT scan of a chameleon.
 
 ### christmas_tree
 ![christmas_tree](./thumbnails/small/christmas_tree.webp)
-The Christmas tree model was scanned with a Siemens Somatom Plus 4 Volume Zoom Multislice-CT scanner at the general hospital in Vienna.
+
+> The Christmas tree model was scanned with a Siemens Somatom Plus 4 Volume Zoom Multislice-CT scanner at the general hospital in Vienna.
 
 <details>
 <summary>Details</summary>
@@ -302,7 +313,8 @@ The Christmas tree model was scanned with a Siemens Somatom Plus 4 Volume Zoom M
 
 ### csafe_heptane
 ![csafe_heptane](./thumbnails/small/csafe_heptane.webp)
-A single time step from a computational simulation of a jet of heptane gas undergoing combustion.
+
+> A single time step from a computational simulation of a jet of heptane gas undergoing combustion.
 
 <details>
 <summary>Details</summary>
@@ -320,7 +332,8 @@ A single time step from a computational simulation of a jet of heptane gas under
 </details>
 
 ### dns
-A pressure field of a direct numerical simulation of fully developed flow at different Reynolds numbers in a plane channel have been performed with POONGBACK code which uses the spectral numerical method of Kim, Moin and Moser (J. Fluid Mech. vol 177, page 133).
+
+> A pressure field of a direct numerical simulation of fully developed flow at different Reynolds numbers in a plane channel have been performed with POONGBACK code which uses the spectral numerical method of Kim, Moin and Moser (J. Fluid Mech. vol 177, page 133).
 
 <details>
 <summary>Details</summary>
@@ -339,7 +352,8 @@ A pressure field of a direct numerical simulation of fully developed flow at dif
 
 ### duct
 ![duct](./thumbnails/small/duct.webp)
-A wall-bounded flow in a duct.
+
+> A wall-bounded flow in a duct.
 
 <details>
 <summary>Details</summary>
@@ -358,7 +372,8 @@ A wall-bounded flow in a duct.
 
 ### engine
 ![engine](./thumbnails/small/engine.webp)
-CT scan of two cylinders of an engine block.
+
+> CT scan of two cylinders of an engine block.
 
 <details>
 <summary>Details</summary>
@@ -377,7 +392,8 @@ CT scan of two cylinders of an engine block.
 
 ### foot
 ![foot](./thumbnails/small/foot.webp)
-Rotational C-arm x-ray scan of a human foot. Tissue and bone are present in the dataset.
+
+> Rotational C-arm x-ray scan of a human foot. Tissue and bone are present in the dataset.
 
 <details>
 <summary>Details</summary>
@@ -396,7 +412,8 @@ Rotational C-arm x-ray scan of a human foot. Tissue and bone are present in the 
 
 ### frog
 ![frog](./thumbnails/small/frog.webp)
-MRI scan of a frog as part of the Whole Frog Project.
+
+> MRI scan of a frog as part of the Whole Frog Project.
 
 <details>
 <summary>Details</summary>
@@ -415,7 +432,8 @@ MRI scan of a frog as part of the Whole Frog Project.
 
 ### fuel
 ![fuel](./thumbnails/small/fuel.webp)
-Simulation of fuel injection into a combustion chamber. The higher the density value, the less presence of air.
+
+> Simulation of fuel injection into a combustion chamber. The higher the density value, the less presence of air.
 
 <details>
 <summary>Details</summary>
@@ -434,7 +452,8 @@ Simulation of fuel injection into a combustion chamber. The higher the density v
 
 ### hcci_oh
 ![hcci_oh](./thumbnails/small/hcci_oh.webp)
-The first timestep of direct numerical simulation of an autoignition phenomena in stratified dimethyl-ether/air turbulent mixtures.
+
+> The first timestep of direct numerical simulation of an autoignition phenomena in stratified dimethyl-ether/air turbulent mixtures.
 
 <details>
 <summary>Details</summary>
@@ -453,7 +472,8 @@ The first timestep of direct numerical simulation of an autoignition phenomena i
 
 ### hydrogen_atom
 ![hydrogen_atom](./thumbnails/small/hydrogen_atom.webp)
-Simulation of the spatial probability distribution of the electron in an hydrogen atom, residing in a strong magnetic field.
+
+> Simulation of the spatial probability distribution of the electron in an hydrogen atom, residing in a strong magnetic field.
 
 <details>
 <summary>Details</summary>
@@ -471,7 +491,8 @@ Simulation of the spatial probability distribution of the electron in an hydroge
 </details>
 
 ### isotropic_pressure
-Pressure field of a direct numerical simulation of forced isotropic turbulence.
+
+> Pressure field of a direct numerical simulation of forced isotropic turbulence.
 
 <details>
 <summary>Details</summary>
@@ -490,7 +511,8 @@ Pressure field of a direct numerical simulation of forced isotropic turbulence.
 
 ### jicf_q
 ![jicf_q](./thumbnails/small/jicf_q.webp)
-Q-criterion of a jet in crossflow created by a direct numerical simulation.
+
+> Q-criterion of a jet in crossflow created by a direct numerical simulation.
 
 <details>
 <summary>Details</summary>
@@ -509,7 +531,8 @@ Q-criterion of a jet in crossflow created by a direct numerical simulation.
 
 ### kingsnake
 ![kingsnake](./thumbnails/small/kingsnake.webp)
-Scan of a Lampropeltis getula egg (captive bred by Travis LaDuc; laid on 7 July 2003, growth terminated on 29 August 2003, 54 days after oviposition) for Dr. Timothy Rowe of the Department of Geological Sciences, The University of Texas at Austin.
+
+> Scan of a Lampropeltis getula egg (captive bred by Travis LaDuc; laid on 7 July 2003, growth terminated on 29 August 2003, 54 days after oviposition) for Dr. Timothy Rowe of the Department of Geological Sciences, The University of Texas at Austin.
 
 <details>
 <summary>Details</summary>
@@ -528,7 +551,8 @@ Scan of a Lampropeltis getula egg (captive bred by Travis LaDuc; laid on 7 July 
 
 ### lobster
 ![lobster](./thumbnails/small/lobster.webp)
-CT scan of a lobster contained in a block of resin.
+
+> CT scan of a lobster contained in a block of resin.
 
 <details>
 <summary>Details</summary>
@@ -547,7 +571,8 @@ CT scan of a lobster contained in a block of resin.
 
 ### magnetic_reconnection
 ![magnetic_reconnection](./thumbnails/small/magnetic_reconnection.webp)
-A single time step from a computational simulation of magnetic reconnection.
+
+> A single time step from a computational simulation of magnetic reconnection.
 
 <details>
 <summary>Details</summary>
@@ -566,7 +591,8 @@ A single time step from a computational simulation of magnetic reconnection.
 
 ### marmoset_neurons
 ![marmoset_neurons](./thumbnails/small/marmoset_neurons.webp)
-Pyramidal neurons in the marmoset primary visual cortex (V1) labeled with green fluorescent protein (GFP) after injection of a psuedotyped G-deleted rabies virus in area V2. The tissue was cleared using the Sca/e technique and imaged on a Olympus 2-photon microscope at 20x magnification.
+
+> Pyramidal neurons in the marmoset primary visual cortex (V1) labeled with green fluorescent protein (GFP) after injection of a psuedotyped G-deleted rabies virus in area V2. The tissue was cleared using the Sca/e technique and imaged on a Olympus 2-photon microscope at 20x magnification.
 
 <details>
 <summary>Details</summary>
@@ -585,7 +611,8 @@ Pyramidal neurons in the marmoset primary visual cortex (V1) labeled with green 
 
 ### marschner_lobb
 ![marschner_lobb](./thumbnails/small/marschner_lobb.webp)
-High frequencies where 99% of the sinusoids are right below the Nyquist frequency.
+
+> High frequencies where 99% of the sinusoids are right below the Nyquist frequency.
 
 <details>
 <summary>Details</summary>
@@ -604,7 +631,8 @@ High frequencies where 99% of the sinusoids are right below the Nyquist frequenc
 
 ### miranda
 ![miranda](./thumbnails/small/miranda.webp)
-A time step of a density field in a simulation of the mixing transition in Rayleigh-Taylor instability.
+
+> A time step of a density field in a simulation of the mixing transition in Rayleigh-Taylor instability.
 
 <details>
 <summary>Details</summary>
@@ -623,7 +651,8 @@ A time step of a density field in a simulation of the mixing transition in Rayle
 
 ### mri_ventricles
 ![mri_ventricles](./thumbnails/small/mri_ventricles.webp)
-1.5T MRT 3D CISS dataset of a human head that highlights the CSF (Cerebro-Spinal-Fluid) filled cavities of the head.
+
+> 1.5T MRT 3D CISS dataset of a human head that highlights the CSF (Cerebro-Spinal-Fluid) filled cavities of the head.
 
 <details>
 <summary>Details</summary>
@@ -642,7 +671,8 @@ A time step of a density field in a simulation of the mixing transition in Rayle
 
 ### mri_woman
 ![mri_woman](./thumbnails/small/mri_woman.webp)
-MRI scan of a woman's head
+
+> MRI scan of a woman's head
 
 <details>
 <summary>Details</summary>
@@ -661,7 +691,8 @@ MRI scan of a woman's head
 
 ### mrt_angio
 ![mrt_angio](./thumbnails/small/mrt_angio.webp)
-3T MRT Time-of-Flight Angiography dataset of a human head. The dataset has been resampled into an isotropic voxel grid (hence the peculiar slice size).
+
+> 3T MRT Time-of-Flight Angiography dataset of a human head. The dataset has been resampled into an isotropic voxel grid (hence the peculiar slice size).
 
 <details>
 <summary>Details</summary>
@@ -680,7 +711,8 @@ MRI scan of a woman's head
 
 ### neghip
 ![neghip](./thumbnails/small/neghip.webp)
-Simulation of the spatial probability distribution of the electrons in a high potential protein molecule.
+
+> Simulation of the spatial probability distribution of the electrons in a high potential protein molecule.
 
 <details>
 <summary>Details</summary>
@@ -699,7 +731,8 @@ Simulation of the spatial probability distribution of the electrons in a high po
 
 ### neocortical_layer_1_axons
 ![neocortical_layer_1_axons](./thumbnails/small/neocortical_layer_1_axons.webp)
-Axons in layer 1 of the mouse barrel cortex imaged in vivo.
+
+> Axons in layer 1 of the mouse barrel cortex imaged in vivo.
 
 <details>
 <summary>Details</summary>
@@ -718,7 +751,8 @@ Axons in layer 1 of the mouse barrel cortex imaged in vivo.
 
 ### nucleon
 ![nucleon](./thumbnails/small/nucleon.webp)
-Simulation of the two-body distribution probability of a nucleon in the atomic nucleus 16O if a second nucleon is known to be positioned at r'=(2 fm,0,0).
+
+> Simulation of the two-body distribution probability of a nucleon in the atomic nucleus 16O if a second nucleon is known to be positioned at r'=(2 fm,0,0).
 
 <details>
 <summary>Details</summary>
@@ -737,7 +771,8 @@ Simulation of the two-body distribution probability of a nucleon in the atomic n
 
 ### pancreas
 ![pancreas](./thumbnails/small/pancreas.webp)
-First scan. The National Institutes of Health Clinical Center performed 82 abdominal contrast enhanced 3D CT scans (~70 seconds after intravenous contrast injection in portal-venous) from 53 male and 27 female subjects. Seventeen of the subjects are healthy kidney donors scanned prior to nephrectomy. The remaining 65 patients were selected by a radiologist from patients who neither had major abdominal pathologies nor pancreatic cancer lesions. Subjects' ages range from 18 to 76 years with a mean age of 46.8 ± 16.7. The CT scans have resolutions of 512x512 pixels with varying pixel sizes and slice thickness between 1.5 - 2.5 mm, acquired on Philips and Siemens MDCT scanners (120 kVp tube voltage). A medical student manually performed slice-by-slice segmentations of the pancreas as ground-truth and these were verified/modified by an experienced radiologist.
+
+> First scan. The National Institutes of Health Clinical Center performed 82 abdominal contrast enhanced 3D CT scans (~70 seconds after intravenous contrast injection in portal-venous) from 53 male and 27 female subjects. Seventeen of the subjects are healthy kidney donors scanned prior to nephrectomy. The remaining 65 patients were selected by a radiologist from patients who neither had major abdominal pathologies nor pancreatic cancer lesions. Subjects' ages range from 18 to 76 years with a mean age of 46.8 ± 16.7. The CT scans have resolutions of 512x512 pixels with varying pixel sizes and slice thickness between 1.5 - 2.5 mm, acquired on Philips and Siemens MDCT scanners (120 kVp tube voltage). A medical student manually performed slice-by-slice segmentations of the pancreas as ground-truth and these were verified/modified by an experienced radiologist.
 
 <details>
 <summary>Details</summary>
@@ -756,7 +791,8 @@ First scan. The National Institutes of Health Clinical Center performed 82 abdom
 
 ### pawpawsaurus
 ![pawpawsaurus](./thumbnails/small/pawpawsaurus.webp)
-This specimen, the holotype, was collected from the Paw Paw Formation, SMU Loc. No. 263, Tarrant County, Texas. The specimen was scanned along the coronal axis for a total of 1088 slices. Voxel size is 0.2275 mm.
+
+> This specimen, the holotype, was collected from the Paw Paw Formation, SMU Loc. No. 263, Tarrant County, Texas. The specimen was scanned along the coronal axis for a total of 1088 slices. Voxel size is 0.2275 mm.
 
 <details>
 <summary>Details</summary>
@@ -775,7 +811,8 @@ This specimen, the holotype, was collected from the Paw Paw Formation, SMU Loc. 
 
 ### pig_heart
 ![pig_heart](./thumbnails/small/pig_heart.webp)
-Volumes were obtained by way of computed tomography (CT) imaging on excised, postmortem porcine hearts. Alginate curing agents were injected into ventricles to provide rigidity and radiopaque agents were injected into the coronary arteries to distinguish microvasculature from the rest of the tissue.
+
+> Volumes were obtained by way of computed tomography (CT) imaging on excised, postmortem porcine hearts. Alginate curing agents were injected into ventricles to provide rigidity and radiopaque agents were injected into the coronary arteries to distinguish microvasculature from the rest of the tissue.
 
 <details>
 <summary>Details</summary>
@@ -794,7 +831,8 @@ Volumes were obtained by way of computed tomography (CT) imaging on excised, pos
 
 ### present
 ![present](./thumbnails/small/present.webp)
-An industrial CT scan of a christmas present.
+
+> An industrial CT scan of a christmas present.
 
 <details>
 <summary>Details</summary>
@@ -813,7 +851,8 @@ An industrial CT scan of a christmas present.
 
 ### prone
 ![prone](./thumbnails/small/prone.webp)
-CT scan of abdomen in prone orientation (back faces ceiling, belly faces table).
+
+> CT scan of abdomen in prone orientation (back faces ceiling, belly faces table).
 
 <details>
 <summary>Details</summary>
@@ -832,7 +871,8 @@ CT scan of abdomen in prone orientation (back faces ceiling, belly faces table).
 
 ### richtmyer_meshkov
 ![richtmyer_meshkov](./thumbnails/small/richtmyer_meshkov.webp)
-Entropy field (timestep 160) of Richtmyer-Meshkov instability simulation.
+
+> Entropy field (timestep 160) of Richtmyer-Meshkov instability simulation.
 
 <details>
 <summary>Details</summary>
@@ -850,7 +890,8 @@ Entropy field (timestep 160) of Richtmyer-Meshkov instability simulation.
 </details>
 
 ### rotstrat_temperature
-Temperature field of a direct numerical simulation of rotating stratified turbulence.
+
+> Temperature field of a direct numerical simulation of rotating stratified turbulence.
 
 <details>
 <summary>Details</summary>
@@ -869,7 +910,8 @@ Temperature field of a direct numerical simulation of rotating stratified turbul
 
 ### shockwave
 ![shockwave](./thumbnails/small/shockwave.webp)
-Simulation of an unsteady interaction of a planar shockwave with a randomly-perturbed contact discontinuity.
+
+> Simulation of an unsteady interaction of a planar shockwave with a randomly-perturbed contact discontinuity.
 
 <details>
 <summary>Details</summary>
@@ -888,7 +930,8 @@ Simulation of an unsteady interaction of a planar shockwave with a randomly-pert
 
 ### silicium
 ![silicium](./thumbnails/small/silicium.webp)
-Simulation of a silicium grid.
+
+> Simulation of a silicium grid.
 
 <details>
 <summary>Details</summary>
@@ -907,7 +950,8 @@ Simulation of a silicium grid.
 
 ### skull
 ![skull](./thumbnails/small/skull.webp)
-Rotational C-arm x-ray scan of phantom of a human skull.
+
+> Rotational C-arm x-ray scan of phantom of a human skull.
 
 <details>
 <summary>Details</summary>
@@ -926,7 +970,8 @@ Rotational C-arm x-ray scan of phantom of a human skull.
 
 ### spathorhynchus
 ![spathorhynchus](./thumbnails/small/spathorhynchus.webp)
-This specimen, the holotype, was collected from the Middle Eocene Green River Formation of Sweetwater County, Wyoming on 27 July 1967 by Frank L. Pearce. The specimen was scanned along the coronal axis for a total of 750 slices. Each 1024x1024 pixel slice is 0.047 mm thick, with an interslice spacing of 0.047 mm and a field of reconstruction of 22 mm.
+
+> This specimen, the holotype, was collected from the Middle Eocene Green River Formation of Sweetwater County, Wyoming on 27 July 1967 by Frank L. Pearce. The specimen was scanned along the coronal axis for a total of 750 slices. Each 1024x1024 pixel slice is 0.047 mm thick, with an interslice spacing of 0.047 mm and a field of reconstruction of 22 mm.
 
 <details>
 <summary>Details</summary>
@@ -945,7 +990,8 @@ This specimen, the holotype, was collected from the Middle Eocene Green River Fo
 
 ### stag_beetle
 ![stag_beetle](./thumbnails/small/stag_beetle.webp)
-The stag beetle from Georg Glaeser, Vienna University of Applied Arts, Austria, was scanned with an industrial CT by Johannes Kastner, Wels College of Engineering, Austria, and Meister Eduard Gröller, Vienna University of Technology, Austria.
+
+> The stag beetle from Georg Glaeser, Vienna University of Applied Arts, Austria, was scanned with an industrial CT by Johannes Kastner, Wels College of Engineering, Austria, and Meister Eduard Gröller, Vienna University of Technology, Austria.
 
 <details>
 <summary>Details</summary>
@@ -964,7 +1010,8 @@ The stag beetle from Georg Glaeser, Vienna University of Applied Arts, Austria, 
 
 ### statue_leg
 ![statue_leg](./thumbnails/small/statue_leg.webp)
-CT scan of a leg of a bronze statue.
+
+> CT scan of a leg of a bronze statue.
 
 <details>
 <summary>Details</summary>
@@ -983,7 +1030,8 @@ CT scan of a leg of a bronze statue.
 
 ### stent
 ![stent](./thumbnails/small/stent.webp)
-CT Scan of the abdomen and pelvis. The dataset contains also a stent in the abdominal aorta. No contrast agent was used to enhance the blood vessels.
+
+> CT Scan of the abdomen and pelvis. The dataset contains also a stent in the abdominal aorta. No contrast agent was used to enhance the blood vessels.
 
 <details>
 <summary>Details</summary>
@@ -1002,7 +1050,8 @@ CT Scan of the abdomen and pelvis. The dataset contains also a stent in the abdo
 
 ### synthetic_truss_with_five_defects
 ![synthetic_truss_with_five_defects](./thumbnails/small/synthetic_truss_with_five_defects.webp)
-A simulated CT scan of a 8x8x8 octet truss with five defects on the front side of the object. The defects are bent strut, broken strut, missing strut, dross, and thin strut.
+
+> A simulated CT scan of a 8x8x8 octet truss with five defects on the front side of the object. The defects are bent strut, broken strut, missing strut, dross, and thin strut.
 
 <details>
 <summary>Details</summary>
@@ -1021,7 +1070,8 @@ A simulated CT scan of a 8x8x8 octet truss with five defects on the front side o
 
 ### tacc_turbulence
 ![tacc_turbulence](./thumbnails/small/tacc_turbulence.webp)
-The dataset represents a time step from an isotropic turbulence simulation. A single variable, enstrophy, is represented on a Cartesian grid.
+
+> The dataset represents a time step from an isotropic turbulence simulation. A single variable, enstrophy, is represented on a Cartesian grid.
 
 <details>
 <summary>Details</summary>
@@ -1041,6 +1091,7 @@ The dataset represents a time step from an isotropic turbulence simulation. A si
 ### tooth
 ![tooth](./thumbnails/small/tooth.webp)
 
+> 
 
 <details>
 <summary>Details</summary>
@@ -1059,7 +1110,8 @@ The dataset represents a time step from an isotropic turbulence simulation. A si
 
 ### vertebra
 ![vertebra](./thumbnails/small/vertebra.webp)
-Rotational angiography scan of a head with an aneurysm. Only contrasted blood vessels are visible.
+
+> Rotational angiography scan of a head with an aneurysm. Only contrasted blood vessels are visible.
 
 <details>
 <summary>Details</summary>
@@ -1078,7 +1130,8 @@ Rotational angiography scan of a head with an aneurysm. Only contrasted blood ve
 
 ### vis_male
 ![vis_male](./thumbnails/small/vis_male.webp)
-Male head scan
+
+> Male head scan
 
 <details>
 <summary>Details</summary>
@@ -1097,7 +1150,8 @@ Male head scan
 
 ### woodbranch
 ![woodbranch](./thumbnails/small/woodbranch.webp)
-A microCT scan of dried wood branch (hazelnut).
+
+> A microCT scan of dried wood branch (hazelnut).
 
 <details>
 <summary>Details</summary>
@@ -1116,7 +1170,8 @@ A microCT scan of dried wood branch (hazelnut).
 
 ### zeiss
 ![zeiss](./thumbnails/small/zeiss.webp)
-Car part reconstructed from projections.
+
+> Car part reconstructed from projections.
 
 <details>
 <summary>Details</summary>
