@@ -30,7 +30,7 @@ datasets_json="data/open-scivis-datasets/datasets.json"
 mkdir -p $output_dir
 
 chunks_per_shard_args=()
-if [ "$chunks_per_shard" -gt 0 ]; then # Use the potentially updated chunks_per_shard
+if [ "$chunks_per_shard" -gt 0 -a "$version" == "0.4" ]; then
   chunks_per_shard_args=("--chunks-per-shard" "$chunks_per_shard")
 fi
 
@@ -44,6 +44,7 @@ for f in ${input_dir}/**/*.nhdr; do
     --method dask_image_gaussian \
     --input-backend itk \
     --chunks "$chunks" \
+    --ome-zarr-version "${version}" \
     ${chunks_per_shard_args[@]} \
     --name "$name" \
     -i "$f" \

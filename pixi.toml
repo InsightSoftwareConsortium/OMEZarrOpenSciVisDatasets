@@ -1,5 +1,5 @@
 [project]
-authors = ["Matt McCormick <matt@mmmccormick.com>"]
+authors = ["Matt McCormick <matt@fideus.io>"]
 channels = ["conda-forge"]
 description = "OME-Zarr Open SciVis Datasets"
 name = "ome-zarr-open-scivis-datasets"
@@ -8,7 +8,38 @@ version = "0.1.0"
 
 [tasks]
 download = { cmd = "python scripts/download.py", description = "Download the Open SciVis Datasets" }
-gen-ome-zarrs = { cmd = "./scripts/gen-ome-zarrs.sh", description = "Generate the OME-Zarr Open SciVis Datasets" }
+"gen-ome-zarr-0.4-64x0" = { cmd = "./scripts/gen-ome-zarrs.sh --version 0.4 --chunks 64 --chunks-per-shard 0", description = "Generate OME-Zarr 0.4 chunks 64 chunks per shard 0" }
+"gen-ome-zarr-0.4-96x0" = { cmd = "./scripts/gen-ome-zarrs.sh --version 0.4 --chunks 96 --chunks-per-shard 0", description = "Generate OME-Zarr 0.4 chunks 64 chunks per shard 0" }
+"gen-ome-zarr-0.4-128x0" = { cmd = "./scripts/gen-ome-zarrs.sh --version 0.4 --chunks 128 --chunks-per-shard 0", description = "Generate OME-Zarr 0.4 chunks 64 chunks per shard 0" }
+"gen-ome-zarr-0.4" = { cmd = "echo 'Generating OME-Zarr 0.4 datasets'", description = "Generate OME-Zarr 0.4 datasets", depends-on = [
+    "gen-ome-zarr-0.4-64x0",
+    "gen-ome-zarr-0.4-96x0",
+    "gen-ome-zarr-0.4-128x0"
+] }
+"gen-ome-zarr-0.5-64x0" = { cmd = "./scripts/gen-ome-zarrs.sh --version 0.5 --chunks 64 --chunks-per-shard 0", description = "Generate OME-Zarr 0.5 chunks 64 chunks per shard 0" }
+"gen-ome-zarr-0.5-96x0" = { cmd = "./scripts/gen-ome-zarrs.sh --version 0.5 --chunks 96 --chunks-per-shard 0", description = "Generate OME-Zarr 0.5 chunks 64 chunks per shard 0" }
+"gen-ome-zarr-0.5-128x0" = { cmd = "./scripts/gen-ome-zarrs.sh --version 0.5 --chunks 128 --chunks-per-shard 0", description = "Generate OME-Zarr 0.5 chunks 64 chunks per shard 0" }
+"gen-ome-zarr-0.5-64x2" = { cmd = "./scripts/gen-ome-zarrs.sh --version 0.5 --chunks 64 --chunks-per-shard 2", description = "Generate OME-Zarr 0.5 chunks 64 chunks per shard 2" }
+"gen-ome-zarr-0.5-96x2" = { cmd = "./scripts/gen-ome-zarrs.sh --version 0.5 --chunks 96 --chunks-per-shard 2", description = "Generate OME-Zarr 0.5 chunks 64 chunks per shard 2" }
+"gen-ome-zarr-0.5-128x2" = { cmd = "./scripts/gen-ome-zarrs.sh --version 0.5 --chunks 128 --chunks-per-shard 2", description = "Generate OME-Zarr 0.5 chunks 64 chunks per shard 2" }
+"gen-ome-zarr-0.5-64x4" = { cmd = "./scripts/gen-ome-zarrs.sh --version 0.5 --chunks 64 --chunks-per-shard 4", description = "Generate OME-Zarr 0.5 chunks 64 chunks per shard 4" }
+"gen-ome-zarr-0.5-96x4" = { cmd = "./scripts/gen-ome-zarrs.sh --version 0.5 --chunks 96 --chunks-per-shard 4", description = "Generate OME-Zarr 0.5 chunks 64 chunks per shard 4" }
+"gen-ome-zarr-0.5-128x4" = { cmd = "./scripts/gen-ome-zarrs.sh --version 0.5 --chunks 128 --chunks-per-shard 4", description = "Generate OME-Zarr 0.5 chunks 64 chunks per shard 4" }
+"gen-ome-zarr-0.5" = { cmd = "echo 'Generating OME-Zarr 0.5 datasets'", description = "Generate OME-Zarr 0.5 datasets", depends-on = [
+    "gen-ome-zarr-0.5-64x0",
+    "gen-ome-zarr-0.5-96x0",
+    "gen-ome-zarr-0.5-128x0",
+    "gen-ome-zarr-0.5-64x2",
+    "gen-ome-zarr-0.5-96x2",
+    "gen-ome-zarr-0.5-128x2",
+    "gen-ome-zarr-0.5-64x4",
+    "gen-ome-zarr-0.5-96x4",
+    "gen-ome-zarr-0.5-128x4"
+] }
+gen-ome-zarrs = { cmd = "echo 'Generating OME-Zarr'", description = "Generate the OME-Zarr Open SciVis Datasets", depends-on = [
+    "gen-ome-zarr-0.4",
+    "gen-ome-zarr-0.5"
+] }
 gen-datasets-json = "python scripts/gen-datasets-json.py"
 gen-small-thumbnails = "./scripts/gen-small-thumbnails.sh"
 gen-readme = "python ./scripts/gen-readme.py"
@@ -17,6 +48,9 @@ gen-readme = "python ./scripts/gen-readme.py"
 python = ">=3.12.5,<4"
 jq = ">=1.7.1,<2"
 libwebp = ">=1.4.0,<2"
+zarr = ">=3.0.8,<4"
+dask = ">=2025.5.1,<2026"
+dask-image = ">=2024.5.3,<2025"
 
 [pypi-dependencies]
 httpx = ">=0.27.2, <0.28"
@@ -24,4 +58,3 @@ ngff-zarr = ">=0.13.2, <0.14"
 rich = ">=13.8.0, <14"
 numpy = ">=2.1.1, <3"
 itk-io = ">=5.4.3, <6"
-dask-image = ">=2024.5.3, <2025"
