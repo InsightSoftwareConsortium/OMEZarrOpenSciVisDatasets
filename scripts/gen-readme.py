@@ -150,16 +150,22 @@ By combining the high-quality datasets from the Open SciVis collection with the 
         fp.write(f"**Dataset Spacing:** {dataset['spacing']}\n\n")
 
         s3_url = f"s3://ome-zarr-open-scivis/v0.5/96x2/{dataset_name}.ome.zarr"
+        https_url = f"https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/{dataset_name}.ome.zarr"
+        preview_url = f"https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/{dataset_name}.ome.zarr"
+        structure_url = f"https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/{dataset_name}.ome.zarr"
+
         store = zarr.storage.FsspecStore.from_url(
-            's3://ome-zarr-open-scivis/v0.5/64x2/engine.ome.zarr',
+            s3_url,
             read_only=True,
             storage_options={'anon':True}
         )
         multiscales = nz.from_ngff_zarr(store)
         scales = len(multiscales.images)
         fp.write(f"**Dataset Scales:** {scales}\n\n")
-        fp.write(f"**Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/{dataset_name}.ome.zarr\n\n")
-        fp.write(f"**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/64x2/{dataset_name}.ome.zarr\n\n")
+        fp.write(f"**Dataset HTTPS URL:** {https_url}\n\n")
+        fp.write(f"**Dataset S3 URL:** {preview_url}\n\n")
+        fp.write(f"**[Interactive visualization]({preview_url})**\n\n")
+        fp.write(f"**[Interactive validator]({structure_url})**\n\n")
         fp.write(f"</details>\n")
 
     fp.write("\n### Sorted by number of voxels\n")
