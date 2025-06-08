@@ -5,6 +5,9 @@ import re
 import sys
 import json
 
+import ngff_zarr as nz
+import zarr.storage
+
 def get_datasets_json():
     input_datasets_json="data/open-scivis-datasets/datasets.json"
     with open(input_datasets_json, "r") as f:
@@ -145,7 +148,18 @@ By combining the high-quality datasets from the Open SciVis collection with the 
         fp.write(f"**Dataset Type:** {dataset['type']}\n\n")
         fp.write(f"**Dataset Size:** {dataset['size']}\n\n")
         fp.write(f"**Dataset Spacing:** {dataset['spacing']}\n\n")
-        fp.write(f"**Dataset URL:** {dataset['url']}\n\n")
+
+        s3_url = f"s3://ome-zarr-open-scivis/v0.5/96x2/{dataset_name}.ome.zarr"
+        store = zarr.storage.FsspecStore.from_url(
+            's3://ome-zarr-open-scivis/v0.5/64x2/engine.ome.zarr',
+            read_only=True,
+            storage_options={'anon':True}
+        )
+        multiscales = nz.from_ngff_zarr(store)
+        scales = len(multiscales.images)
+        fp.write(f"**Dataset Scales:** {scales}\n\n")
+        fp.write(f"**Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/{dataset_name}.ome.zarr\n\n")
+        fp.write(f"**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/64x2/{dataset_name}.ome.zarr\n\n")
         fp.write(f"</details>\n")
 
     fp.write("\n### Sorted by number of voxels\n")
@@ -185,8 +199,128 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
     fp.write("\n## Usage\n")
     usage_text = """
-The OME-Zarr Open SciVis Datasets are freely available for download and use by the scientific visualization community. To access the datasets, follow these steps:
-# todo after uploading to S3
+The OME-Zarr Open SciVis Datasets are freely available for download and use by the scientific visualization community.
+
+### Python Loading Example
+
+To load a dataset in Python, use the following example code:
+
+```shell
+pip install ngff-zarr s3fs matplotlib
+```
+
+```python
+import ngff_zarr as nz
+import zarr.storage
+from rich import print
+from matplotlib import pyplot as plt
+
+store = zarr.storage.FsspecStore.from_url(
+  's3://ome-zarr-open-scivis/v0.5/64x2/engine.ome.zarr',
+  read_only=True,
+  storage_options={'anon':True}
+)
+multiscales = nz.from_ngff_zarr(store)
+
+print(multiscales)
+```
+
+Result:
+
+```python
+Multiscales(
+    images=[
+        NgffImage(
+            data=dask.array<from-zarr, shape=(128, 256, 256), dtype=uint8, chunksize=(64, 64, 64), chunktype=numpy.ndarray>,
+            dims=['z', 'y', 'x'],
+            scale={'z': 1.0, 'y': 1.0, 'x': 1.0},
+            translation={'z': -64.0, 'y': -128.0, 'x': -128.0},
+            name='image',
+            axes_units={'z': None, 'y': None, 'x': None},
+            computed_callbacks=[]
+        ),
+        NgffImage(
+            data=dask.array<from-zarr, shape=(128, 128, 128), dtype=uint8, chunksize=(64, 64, 64), chunktype=numpy.ndarray>,
+            dims=['z', 'y', 'x'],
+            scale={'z': 1.0, 'y': 2.0, 'x': 2.0},
+            translation={'z': -64.0, 'y': -127.5, 'x': -127.5},
+            name='image',
+            axes_units={'z': None, 'y': None, 'x': None},
+            computed_callbacks=[]
+        )
+    ],
+    metadata=Metadata(
+        axes=[Axis(name='z', type='space', unit=None), Axis(name='y', type='space', unit=None), Axis(name='x', type='space', unit=None)],
+        datasets=[
+            Dataset(
+                path='scale0/engine',
+                coordinateTransformations=[
+                    Scale(scale=[1.0, 1.0, 1.0], type='scale'),
+                    Translation(translation=[-64.0, -128.0, -128.0], type='translation')
+                ]
+            ),
+            Dataset(
+                path='scale1/engine',
+                coordinateTransformations=[
+                    Scale(scale=[1.0, 2.0, 2.0], type='scale'),
+                    Translation(translation=[-64.0, -127.5, -127.5], type='translation')
+                ]
+            )
+        ],
+        coordinateTransformations=None,
+        omero=None,
+        name='image'
+    ),
+    scale_factors=None,
+    method=None,
+    chunks=None"
+)
+```
+
+```python
+plt.imshow(multiscales.images[1].data[64,:,:])
+plt.show()
+```
+
+Result:
+![Matplotlib engine rendering](./thumbnails/engine-matplotlib.png)
+
+### Dataset Formats
+
+#### version
+
+All datasets are currently available in two OME-Zarr format versions,
+Version 0.4 (Zarr 2-based), and Version 0.5 (Zarr 3-based).
+
+- 0.4 : OME-Zarr Version 0.4
+- 0.5 : OME-Zarr Version 0.5
+
+#### chunks
+
+Datasets are also available with different z,y,x chunk sizes.
+
+- 64 : 64x64x64
+- 96 : 96x96x96
+- 128 : 128x128x28
+
+#### shards
+
+For the OME-Zarr v0.5, datasets, datasets are also available with different
+sharding settings.
+
+- 0 : 0x0x0 (no sharding)
+- 2 : 2x2x2 (two chunks per shard in each dimension)
+- 4 : 4x4x4
+
+For OME-Zarr v0.4, only `0` (no sharding) is available.
+
+#### URL format
+
+The URL formats are:
+
+- https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v{version}/{chunks}x{shards}/{dataset_name}.ome.zarr
+- s3://ome-zarr-open-scivis/v{version}/{chunks}x{shards}/{dataset_name}.ome.zarr
+
 """
     fp.write(usage_text)
 
