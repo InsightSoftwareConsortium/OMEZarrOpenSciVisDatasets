@@ -20,6 +20,7 @@ def get_datasets():
     DATASETS.pop("dns", None)
     DATASETS.pop("isotropic_pressure", None)
     DATASETS.pop("rotstrat_temperature", None)
+    DATASETS.pop("3d_neurons_15_sept_2016", None)
     return DATASETS
 
 def get_dataset_names():
@@ -39,6 +40,22 @@ with open('./README.md', 'w') as fp:
 ![engine](./thumbnails/small/engine.webp)
 
 > The OME-Zarr Open SciVis Datasets project provides the Open SciVis Dataset in a chunked, multi-scale format, encodes metadata in JSON according to the OME-Zarr specification, and hosts the datasets on AWS S3 through the AWS Open Data Program, aiming to serve as a web-based resource for the scientific visualization community to enhance reproducibility and facilitate testing and development of OME-Zarr tools.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+  - [OME-Zarr](#ome-zarr)
+  - [Open SciVis Datasets](#open-scivis-datasets)
+  - [Project Overview](#project-overview)
+- [Datasets](#datasets)
+  - [Sorted by number of voxels](#sorted-by-number-of-voxels)
+  - [CT Scans](#ct-scans)
+  - [MRI Scans](#mri-scans)
+  - [Microscopy Datasets](#microscopy-datasets)
+  - [Simulation Datasets](#simulation-datasets)
+- [Usage](#usage)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
 
 ## Introduction
 
@@ -167,7 +184,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
         scales = len(multiscales.images)
         fp.write(f"**Dataset Scales:** {scales}\n\n")
         fp.write(f"**Dataset HTTPS URL:** {https_url}\n\n")
-        fp.write(f"**Dataset S3 URL:** {preview_url}\n\n")
+        fp.write(f"**Dataset S3 URL:** {s3_url}\n\n")
         fp.write(f"**[Interactive visualization]({preview_url})**\n\n")
         fp.write(f"**[Interactive structure]({structure_url})**\n\n")
         fp.write(f"</details>\n")
@@ -234,8 +251,7 @@ multiscales = nz.from_ngff_zarr(store)
 
 print(multiscales)
 ```
-
-Result:
+------
 
 ```python
 Multiscales(
@@ -292,7 +308,8 @@ plt.imshow(multiscales.images[1].data[64,:,:])
 plt.show()
 ```
 
-Result:
+------
+
 ![Matplotlib engine rendering](./thumbnails/engine-matplotlib.png)
 
 ### Dataset Formats

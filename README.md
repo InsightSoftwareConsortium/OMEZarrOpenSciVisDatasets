@@ -4,6 +4,22 @@
 
 > The OME-Zarr Open SciVis Datasets project provides the Open SciVis Dataset in a chunked, multi-scale format, encodes metadata in JSON according to the OME-Zarr specification, and hosts the datasets on AWS S3 through the AWS Open Data Program, aiming to serve as a web-based resource for the scientific visualization community to enhance reproducibility and facilitate testing and development of OME-Zarr tools.
 
+## Table of Contents
+
+- [Introduction](#introduction)
+  - [OME-Zarr](#ome-zarr)
+  - [Open SciVis Datasets](#open-scivis-datasets)
+  - [Project Overview](#project-overview)
+- [Datasets](#datasets)
+  - [Sorted by number of voxels](#sorted-by-number-of-voxels)
+  - [CT Scans](#ct-scans)
+  - [MRI Scans](#mri-scans)
+  - [Microscopy Datasets](#microscopy-datasets)
+  - [Simulation Datasets](#simulation-datasets)
+- [Usage](#usage)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+
 ## Introduction
 
 ### OME-Zarr
@@ -95,34 +111,6 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 ## Datasets
 
-### 3d_neurons_15_sept_2016
-![3d_neurons_15_sept_2016](./thumbnails/small/3d_neurons_15_sept_2016.webp)
-
-> The neurons are macaque visual cortical neurons labeled with TdTomato fluorescent proteins.
-
-<details>
-<summary>Details</summary>
-
-**Dataset Name:** 3d_neurons_15_sept_2016
-
-**Dataset Type:** uint16
-
-**Dataset Size:** [2048, 2048, 1718]
-
-**Dataset Spacing:** [0.267345, 0.267345, 0.5]
-
-**Dataset Scales:** 5
-
-**Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/3d_neurons_15_sept_2016.ome.zarr
-
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/3d_neurons_15_sept_2016.ome.zarr
-
-**[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/3d_neurons_15_sept_2016.ome.zarr)**
-
-**[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/3d_neurons_15_sept_2016.ome.zarr)**
-
-</details>
-
 ### aneurism
 ![aneurism](./thumbnails/small/aneurism.webp)
 
@@ -143,7 +131,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/aneurism.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/aneurism.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/aneurism.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/aneurism.ome.zarr)**
 
@@ -171,7 +159,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/backpack.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/backpack.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/backpack.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/backpack.ome.zarr)**
 
@@ -199,7 +187,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/beechnut.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/beechnut.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/beechnut.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/beechnut.ome.zarr)**
 
@@ -227,7 +215,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/blunt_fin.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/blunt_fin.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/blunt_fin.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/blunt_fin.ome.zarr)**
 
@@ -255,7 +243,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/bonsai.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/bonsai.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/bonsai.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/bonsai.ome.zarr)**
 
@@ -283,7 +271,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/boston_teapot.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/boston_teapot.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/boston_teapot.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/boston_teapot.ome.zarr)**
 
@@ -311,7 +299,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/bunny.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/bunny.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/bunny.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/bunny.ome.zarr)**
 
@@ -339,7 +327,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/carp.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/carp.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/carp.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/carp.ome.zarr)**
 
@@ -367,7 +355,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/chameleon.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/chameleon.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/chameleon.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/chameleon.ome.zarr)**
 
@@ -395,7 +383,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/christmas_tree.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/christmas_tree.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/christmas_tree.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/christmas_tree.ome.zarr)**
 
@@ -423,7 +411,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/csafe_heptane.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/csafe_heptane.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/csafe_heptane.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/csafe_heptane.ome.zarr)**
 
@@ -451,7 +439,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/duct.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/duct.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/duct.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/duct.ome.zarr)**
 
@@ -479,7 +467,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/engine.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/engine.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/engine.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/engine.ome.zarr)**
 
@@ -507,7 +495,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/foot.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/foot.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/foot.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/foot.ome.zarr)**
 
@@ -535,7 +523,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/frog.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/frog.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/frog.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/frog.ome.zarr)**
 
@@ -563,7 +551,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/fuel.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/fuel.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/fuel.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/fuel.ome.zarr)**
 
@@ -591,7 +579,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/hcci_oh.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/hcci_oh.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/hcci_oh.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/hcci_oh.ome.zarr)**
 
@@ -619,7 +607,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/hydrogen_atom.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/hydrogen_atom.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/hydrogen_atom.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/hydrogen_atom.ome.zarr)**
 
@@ -647,7 +635,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/jicf_q.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/jicf_q.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/jicf_q.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/jicf_q.ome.zarr)**
 
@@ -675,7 +663,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/kingsnake.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/kingsnake.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/kingsnake.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/kingsnake.ome.zarr)**
 
@@ -703,7 +691,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/lobster.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/lobster.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/lobster.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/lobster.ome.zarr)**
 
@@ -731,7 +719,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/magnetic_reconnection.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/magnetic_reconnection.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/magnetic_reconnection.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/magnetic_reconnection.ome.zarr)**
 
@@ -759,7 +747,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/marmoset_neurons.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/marmoset_neurons.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/marmoset_neurons.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/marmoset_neurons.ome.zarr)**
 
@@ -787,7 +775,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/marschner_lobb.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/marschner_lobb.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/marschner_lobb.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/marschner_lobb.ome.zarr)**
 
@@ -815,7 +803,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/miranda.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/miranda.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/miranda.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/miranda.ome.zarr)**
 
@@ -843,7 +831,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/mri_ventricles.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/mri_ventricles.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/mri_ventricles.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/mri_ventricles.ome.zarr)**
 
@@ -871,7 +859,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/mri_woman.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/mri_woman.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/mri_woman.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/mri_woman.ome.zarr)**
 
@@ -899,7 +887,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/mrt_angio.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/mrt_angio.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/mrt_angio.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/mrt_angio.ome.zarr)**
 
@@ -927,7 +915,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/neghip.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/neghip.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/neghip.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/neghip.ome.zarr)**
 
@@ -955,7 +943,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/neocortical_layer_1_axons.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/neocortical_layer_1_axons.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/neocortical_layer_1_axons.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/neocortical_layer_1_axons.ome.zarr)**
 
@@ -983,7 +971,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/nucleon.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/nucleon.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/nucleon.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/nucleon.ome.zarr)**
 
@@ -1011,7 +999,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/pancreas.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/pancreas.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/pancreas.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/pancreas.ome.zarr)**
 
@@ -1039,7 +1027,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/pawpawsaurus.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/pawpawsaurus.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/pawpawsaurus.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/pawpawsaurus.ome.zarr)**
 
@@ -1067,7 +1055,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/pig_heart.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/pig_heart.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/pig_heart.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/pig_heart.ome.zarr)**
 
@@ -1095,7 +1083,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/present.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/present.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/present.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/present.ome.zarr)**
 
@@ -1123,7 +1111,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/prone.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/prone.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/prone.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/prone.ome.zarr)**
 
@@ -1151,7 +1139,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/richtmyer_meshkov.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/richtmyer_meshkov.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/richtmyer_meshkov.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/richtmyer_meshkov.ome.zarr)**
 
@@ -1179,7 +1167,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/shockwave.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/shockwave.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/shockwave.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/shockwave.ome.zarr)**
 
@@ -1207,7 +1195,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/silicium.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/silicium.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/silicium.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/silicium.ome.zarr)**
 
@@ -1235,7 +1223,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/skull.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/skull.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/skull.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/skull.ome.zarr)**
 
@@ -1263,7 +1251,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/spathorhynchus.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/spathorhynchus.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/spathorhynchus.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/spathorhynchus.ome.zarr)**
 
@@ -1291,7 +1279,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/stag_beetle.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/stag_beetle.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/stag_beetle.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/stag_beetle.ome.zarr)**
 
@@ -1319,7 +1307,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/statue_leg.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/statue_leg.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/statue_leg.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/statue_leg.ome.zarr)**
 
@@ -1347,7 +1335,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/stent.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/stent.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/stent.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/stent.ome.zarr)**
 
@@ -1375,7 +1363,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/synthetic_truss_with_five_defects.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/synthetic_truss_with_five_defects.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/synthetic_truss_with_five_defects.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/synthetic_truss_with_five_defects.ome.zarr)**
 
@@ -1403,7 +1391,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/tacc_turbulence.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/tacc_turbulence.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/tacc_turbulence.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/tacc_turbulence.ome.zarr)**
 
@@ -1431,7 +1419,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/tooth.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/tooth.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/tooth.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/tooth.ome.zarr)**
 
@@ -1459,7 +1447,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/vertebra.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/vertebra.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/vertebra.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/vertebra.ome.zarr)**
 
@@ -1487,7 +1475,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/vis_male.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/vis_male.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/vis_male.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/vis_male.ome.zarr)**
 
@@ -1515,7 +1503,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/woodbranch.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/woodbranch.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/woodbranch.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/woodbranch.ome.zarr)**
 
@@ -1543,7 +1531,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **Dataset HTTPS URL:** https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/zeiss.ome.zarr
 
-**Dataset S3 URL:** https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/zeiss.ome.zarr
+**Dataset S3 URL:** s3://ome-zarr-open-scivis/v0.5/96x2/zeiss.ome.zarr
 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-open-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/zeiss.ome.zarr)**
 
@@ -1600,10 +1588,9 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 46. [beechnut](#beechnut) - 1.6e+09
 47. [jicf_q](#jicf_q) - 1.7e+09
 48. [synthetic_truss_with_five_defects](#synthetic_truss_with_five_defects) - 1.7e+09
-49. [3d_neurons_15_sept_2016](#3d_neurons_15_sept_2016) - 7.2e+09
-50. [richtmyer_meshkov](#richtmyer_meshkov) - 8.1e+09
-51. [woodbranch](#woodbranch) - 8.6e+09
-52. [pig_heart](#pig_heart) - 1.1e+10
+49. [richtmyer_meshkov](#richtmyer_meshkov) - 8.1e+09
+50. [woodbranch](#woodbranch) - 8.6e+09
+51. [pig_heart](#pig_heart) - 1.1e+10
 
 ### CT Scans
 - [aneurism](#aneurism)
@@ -1642,7 +1629,6 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 - [mri_woman](#mri_woman)
 
 ### Microscopy Datasets
-- [3d_neurons_15_sept_2016](#3d_neurons_15_sept_2016)
 - [marmoset_neurons](#marmoset_neurons)
 - [neocortical_layer_1_axons](#neocortical_layer_1_axons)
 
@@ -1691,8 +1677,7 @@ multiscales = nz.from_ngff_zarr(store)
 
 print(multiscales)
 ```
-
-Result:
+------
 
 ```python
 Multiscales(
@@ -1749,7 +1734,8 @@ plt.imshow(multiscales.images[1].data[64,:,:])
 plt.show()
 ```
 
-Result:
+------
+
 ![Matplotlib engine rendering](./thumbnails/engine-matplotlib.png)
 
 ### Dataset Formats
