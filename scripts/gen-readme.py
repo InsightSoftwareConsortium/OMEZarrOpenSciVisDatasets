@@ -16,6 +16,10 @@ def get_datasets_json():
 
 DATASETS = get_datasets_json()
 def get_datasets():
+    # Remove currently unsupported
+    DATASETS.pop("dns", None)
+    DATASETS.pop("isotropic_pressure", None)
+    DATASETS.pop("rotstrat_temperature", None)
     return DATASETS
 
 def get_dataset_names():
@@ -165,7 +169,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
         fp.write(f"**Dataset HTTPS URL:** {https_url}\n\n")
         fp.write(f"**Dataset S3 URL:** {preview_url}\n\n")
         fp.write(f"**[Interactive visualization]({preview_url})**\n\n")
-        fp.write(f"**[Interactive validator]({structure_url})**\n\n")
+        fp.write(f"**[Interactive structure]({structure_url})**\n\n")
         fp.write(f"</details>\n")
 
     fp.write("\n### Sorted by number of voxels\n")
