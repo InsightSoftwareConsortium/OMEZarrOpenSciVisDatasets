@@ -1,0 +1,31 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: OME-Zarr Open SciVis Datasets
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - orcid: 'https://orcid.org/0000-0001-9475-3756'
+    given-names: Matthew
+    family-names: McCormick
+    email: matt@fideus.io
+    affiliation: Fideus Labs
+repository-code: 'https://github.com/thewtex/ome-zarr-open-scivis-datasets'
+abstract: >-
+  The OME-Zarr Open SciVis Datasets project provides the
+  Open SciVis Dataset in a chunked, multi-scale format,
+  encodes metadata in JSON according to the OME-Zarr
+  specification, and hosts the datasets on AWS S3 through
+  the AWS Open Data Program, aiming to serve as a web-based
+  resource for the scientific visualization community to
+  enhance reproducibility and facilitate testing and
+  development of OME-Zarr tools.
+keywords:
+  - visualization
+  - zarr
+  - imaging
+  - scivis
+license: Apache-2.0
