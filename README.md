@@ -61,7 +61,7 @@ specification](https://ngff.openmicroscopy.org/specifications/index.html).
 
 ### Open SciVis Datasets
 
-The [Open SciVis Datasets](https://klacansky.com/open-scivis-datasets/), curated
+The [Open SciVis Datasets](http://klacansky.com/open-scivis-datasets/), curated
 by Pavol Klacansky, is a valuable resource for the scientific visualization
 community. This collection provides a diverse range of volumetric datasets that
 are freely available for use in research, education, and development of
@@ -1790,7 +1790,7 @@ The OME-Zarr Open SciVis Datasets generation code is licensed under the [Apache 
 
 We would like to acknowledge the following individuals and organizations for their contributions and support:
 
-- [Pavol Klacansky](https://klacansky.com/) for curating the original Open SciVis Datasets collection and making it freely available to the scientific visualization community.
+- [Pavol Klacansky](http://klacansky.com/) for curating the original Open SciVis Datasets collection and making it freely available to the scientific visualization community.
 - The [Open Microscopy Environment](https://www.openmicroscopy.org/) for developing the OME-Zarr file format and promoting open, collaborative standards for bioimaging data.
 - [Amazon Web Services (AWS)](https://aws.amazon.com/) for hosting the OME-Zarr Open SciVis Datasets on the AWS S3 platform through the AWS Open Data Program.
 - [NumFOCUS](https://numfocus.org/) for supporting the development and maintenance of open-source scientific computing tools and resources.
