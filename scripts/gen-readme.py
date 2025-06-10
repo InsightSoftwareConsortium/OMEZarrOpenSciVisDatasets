@@ -312,6 +312,11 @@ plt.show()
 
 ![Matplotlib engine rendering](./thumbnails/engine-matplotlib.png)
 
+### Additional tools
+
+For additional tools to read or visualize OME-Zarr datasets, see the
+[Next Generation File Format (NGFF) tools index](https://ngff.openmicroscopy.org/tools/index.html).
+
 ### Dataset Formats
 
 #### version
