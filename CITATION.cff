@@ -13,7 +13,7 @@ authors:
     family-names: McCormick
     email: matt@fideus.io
     affiliation: Fideus Labs
-repository-code: 'https://github.com/thewtex/ome-zarr-open-scivis-datasets'
+repository-code: 'https://github.com/InsightSoftwareConsortium/OMEZarrOpenSciVisDatasets'
 abstract: >-
   The OME-Zarr Open SciVis Datasets project provides the
   Open SciVis Dataset in a chunked, multi-scale format,
