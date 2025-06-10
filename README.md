@@ -137,6 +137,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/aneurism.ome.zarr)**
 
+**Acknowledgement:** volvis.org and Philips Research, Hamburg, Germany
+
 </details>
 
 ### backpack
@@ -164,6 +166,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/backpack.ome.zarr)**
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/backpack.ome.zarr)**
+
+**Acknowledgement:** volvis.org and Kevin Kreeger, Viatronix Inc., USA
 
 </details>
 
@@ -193,6 +197,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/beechnut.ome.zarr)**
 
+**Acknowledgement:** The Computer-Assisted Paleoanthropology group and the Visualization and MultiMedia Lab at University of Zurich (UZH)
+
 </details>
 
 ### blunt_fin
@@ -220,6 +226,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/blunt_fin.ome.zarr)**
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/blunt_fin.ome.zarr)**
+
+**Acknowledgement:** NASA Advanced Supercomputing Division, USA
 
 </details>
 
@@ -249,6 +257,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/bonsai.ome.zarr)**
 
+**Acknowledgement:** volvis.org and S. Roettger, VIS, University of Stuttgart
+
 </details>
 
 ### boston_teapot
@@ -276,6 +286,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/boston_teapot.ome.zarr)**
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/boston_teapot.ome.zarr)**
+
+**Acknowledgement:** volvis.org and Terarecon Inc, MERL, Brigham and Women's Hospital
 
 </details>
 
@@ -305,6 +317,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/bunny.ome.zarr)**
 
+**Acknowledgement:** Many many thanks to Geoff Rubin who helped me to scan the data, Sandy Napel who coordinated the scan and helped to process the data, and Marc Levoy who graciously provided the subject.  Geoff and Sandy are with Stanford Radiology, and Marc is with Stanford Computer Science.
+
 </details>
 
 ### carp
@@ -332,6 +346,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/carp.ome.zarr)**
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/carp.ome.zarr)**
+
+**Acknowledgement:** Michael Scheuring, Computer Graphics Group, University of Erlangen, Germany
 
 </details>
 
@@ -361,6 +377,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/chameleon.ome.zarr)**
 
+**Acknowledgement:** Chamaeleo calyptratus. Digital Morphology, 2003.
+
 </details>
 
 ### christmas_tree
@@ -388,6 +406,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/christmas_tree.ome.zarr)**
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/christmas_tree.ome.zarr)**
+
+**Acknowledgement:** Armin Kanitsar, 2002
 
 </details>
 
@@ -417,6 +437,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/csafe_heptane.ome.zarr)**
 
+**Acknowledgement:** The University of Utah Center for the Simulation of Accidental Fires and Explosions.
+
 </details>
 
 ### duct
@@ -444,6 +466,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/duct.ome.zarr)**
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/duct.ome.zarr)**
+
+**Acknowledgement:** Marco Atzori, Ricardo Vinuesa, Adrián Lozano-Durán, and Philipp Schlatter. This work was supported by grants from the Swedish Foundation for Strategic Research, project “In-Situ Big Data Analysis for Flow and Climate Simulations” (Ref. number BD15-0082) and from the Knut and Alice Wallenberg Foundation. The simulation were performed on resources provided by the Swedish National Infrastructure for Computing (SNIC).
 
 </details>
 
@@ -473,6 +497,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/engine.ome.zarr)**
 
+**Acknowledgement:** volvis.org and General Electric
+
 </details>
 
 ### foot
@@ -500,6 +526,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/foot.ome.zarr)**
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/foot.ome.zarr)**
+
+**Acknowledgement:** volvis.org and Philips Research, Hamburg, Germany
 
 </details>
 
@@ -529,6 +557,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/frog.ome.zarr)**
 
+**Acknowledgement:** Lawrence Berkeley Laboratory, USA
+
 </details>
 
 ### fuel
@@ -556,6 +586,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/fuel.ome.zarr)**
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/fuel.ome.zarr)**
+
+**Acknowledgement:** volvis.org and SFB 382 of the German Research Council (DFG)
 
 </details>
 
@@ -585,6 +617,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/hcci_oh.ome.zarr)**
 
+**Acknowledgement:** Gaurav Bansal, Ajith Mascarenhas, and Jacqueline H. Chen.
+
 </details>
 
 ### hydrogen_atom
@@ -612,6 +646,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/hydrogen_atom.ome.zarr)**
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/hydrogen_atom.ome.zarr)**
+
+**Acknowledgement:** volvis.org and SFB 382 of the German Research Council (DFG)
 
 </details>
 
@@ -641,6 +677,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/jicf_q.ome.zarr)**
 
+**Acknowledgement:** Computational support and resources were provided by the National Center for Computational Sciences at Oak Ridge National Laboratory, which is supported by the Office of Science of the US Department of Energy under contract DE-AC05-00OR22725. The work at NREL was supported by the US Department of Energy under contract DE-AC36-08-GO28308 with the National Renewable Energy Laboratory. The work at Sandia National Laboratories was supported by the Division of Chemical Sciences, Geosciences, and Biosciences, Office of Basic Energy Sciences of the US Department of Energy and by the US Department of Energy SciDAC Program. SNL is a multiprogramme laboratory operated by Sandia Corporation, a Lockheed Martin Company, for the US DOE under contract DE-AC04-94AL85000. The work at SINTEF was produced with support from Gassnova through the BIGH2/SP2 project and from the BIGCCS Centre, performed under the Norwegian research programme Centres for Environment-Friendly Energy Research (FME). The authors acknowledge the following partners for their contributions: Aker Solutions, ConocoPhillips, Det Norske Veritas, Gassco, Hydro, Shell, Statoil, TOTAL, GDF SUEZ and the Research Council of Norway (193816/S60).
+
 </details>
 
 ### kingsnake
@@ -668,6 +706,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/kingsnake.ome.zarr)**
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/kingsnake.ome.zarr)**
+
+**Acknowledgement:** DigiMorph.org, The University of Texas High-Resolution X-ray CT Facility (UTCT), and NSF grant IIS-9874781
 
 </details>
 
@@ -697,6 +737,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/lobster.ome.zarr)**
 
+**Acknowledgement:** volvis.org and VolVis distribution of SUNY Stony Brook, NY, USA
+
 </details>
 
 ### magnetic_reconnection
@@ -724,6 +766,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/magnetic_reconnection.ome.zarr)**
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/magnetic_reconnection.ome.zarr)**
+
+**Acknowledgement:** Bill Daughton (LANL) and Berk Geveci (KitWare). Please acknowledge paper http://arxiv.org/abs/1405.4040.
 
 </details>
 
@@ -753,6 +797,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/marmoset_neurons.ome.zarr)**
 
+**Acknowledgement:** Frederick Federer, Moran Eye Institute, University of Utah
+
 </details>
 
 ### marschner_lobb
@@ -780,6 +826,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/marschner_lobb.ome.zarr)**
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/marschner_lobb.ome.zarr)**
+
+**Acknowledgement:** volvis.org and Marschner and Lobb
 
 </details>
 
@@ -809,6 +857,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/miranda.ome.zarr)**
 
+**Acknowledgement:** Andrew W. Cook, William Cabot, and Paul L. Miller
+
 </details>
 
 ### mri_ventricles
@@ -836,6 +886,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/mri_ventricles.ome.zarr)**
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/mri_ventricles.ome.zarr)**
+
+**Acknowledgement:** volvis.org and Dirk Bartz, VCM, University of Tübingen, Germany
 
 </details>
 
@@ -865,6 +917,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/mri_woman.ome.zarr)**
 
+**Acknowledgement:** Siemens Medical Systems, Inc., Iselin, NJ., USA
+
 </details>
 
 ### mrt_angio
@@ -892,6 +946,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/mrt_angio.ome.zarr)**
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/mrt_angio.ome.zarr)**
+
+**Acknowledgement:** volvis.org and Özlem Gürvit, Institute for Neuroradiology, Frankfurt, Germany
 
 </details>
 
@@ -921,6 +977,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/neghip.ome.zarr)**
 
+**Acknowledgement:** volvis.org and VolVis distribution of SUNY Stony Brook, NY, USA
+
 </details>
 
 ### neocortical_layer_1_axons
@@ -948,6 +1006,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/neocortical_layer_1_axons.ome.zarr)**
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/neocortical_layer_1_axons.ome.zarr)**
+
+**Acknowledgement:** V De Paola, MRC Clinical Sciences Center, Imperial College London
 
 </details>
 
@@ -977,6 +1037,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/nucleon.ome.zarr)**
 
+**Acknowledgement:** volvis.org and SFB 382 of the German Research Council (DFG)
+
 </details>
 
 ### pancreas
@@ -1004,6 +1066,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/pancreas.ome.zarr)**
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/pancreas.ome.zarr)**
+
+**Acknowledgement:** Roth HR, Lu L, Farag A, Shin H-C, Liu J, Turkbey EB, Summers RM. DeepOrgan: Multi-level Deep Convolutional Networks for Automated Pancreas Segmentation. N. Navab et al. (Eds.): MICCAI 2015, Part I, LNCS 9349, pp. 556-564, 2015.
 
 </details>
 
@@ -1033,6 +1097,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/pawpawsaurus.ome.zarr)**
 
+**Acknowledgement:** Matthew Colbert, 4 February 2014
+
 </details>
 
 ### pig_heart
@@ -1060,6 +1126,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/pig_heart.ome.zarr)**
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/pig_heart.ome.zarr)**
+
+**Acknowledgement:** Experiments were performed by the Cardiovascular Research and Training Institute (CVRTI) and the Scientific Computing and Imaging (SCI) Institute at the University of Utah with funding from the Nora Eccles Treadwell foundation and the NIH/NIGMS Center of Integrative Biomedical Computing under grant P41 GM103545-17.
 
 </details>
 
@@ -1089,6 +1157,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/present.ome.zarr)**
 
+**Acknowledgement:** Christoph Heinzl, 2006
+
 </details>
 
 ### prone
@@ -1116,6 +1186,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/prone.ome.zarr)**
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/prone.ome.zarr)**
+
+**Acknowledgement:** volvis.org and Walter Reed Army Medical Center, USA
 
 </details>
 
@@ -1145,6 +1217,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/richtmyer_meshkov.ome.zarr)**
 
+**Acknowledgement:** Three-dimensional simulation of a Richtmyer-Meshkov instability with a two-scale initial perturbation, Ronald H. Cohen, William P. Dannevik, Andris M. Dimits, Donald E. Eliason, Arthur A. Mirin, and Ye Zhou
+
 </details>
 
 ### shockwave
@@ -1172,6 +1246,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/shockwave.ome.zarr)**
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/shockwave.ome.zarr)**
+
+**Acknowledgement:** volvis.org
 
 </details>
 
@@ -1201,6 +1277,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/silicium.ome.zarr)**
 
+**Acknowledgement:** volvis.org and VolVis distribution of SUNY Stony Brook, NY, USA
+
 </details>
 
 ### skull
@@ -1228,6 +1306,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/skull.ome.zarr)**
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/skull.ome.zarr)**
+
+**Acknowledgement:** volvis.org and Siemens Medical Solutions, Forchheim, Germany
 
 </details>
 
@@ -1257,6 +1337,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/spathorhynchus.ome.zarr)**
 
+**Acknowledgement:** Matthew Colbert, 17 February 2005
+
 </details>
 
 ### stag_beetle
@@ -1284,6 +1366,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/stag_beetle.ome.zarr)**
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/stag_beetle.ome.zarr)**
+
+**Acknowledgement:** Meister Eduard Gröller, Georg Glaeser, Johannes Kastner, 2005
 
 </details>
 
@@ -1313,6 +1397,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/statue_leg.ome.zarr)**
 
+**Acknowledgement:** volvis.org and German Federal Institute for Material Research and Testing (BAM), Berlin, Germany
+
 </details>
 
 ### stent
@@ -1340,6 +1426,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/stent.ome.zarr)**
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/stent.ome.zarr)**
+
+**Acknowledgement:** volvis.org and Michael Meißner, Viatronix Inc., USA
 
 </details>
 
@@ -1369,6 +1457,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/synthetic_truss_with_five_defects.ome.zarr)**
 
+**Acknowledgement:** The CAD meshes can be found here https://data-science.llnl.gov/open-data-initiative. The dataset is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License. Copyright (c) 2022, Lawrence Livermore National Security, LLC. Produced at the Lawrence Livermore National Laboratory. Written by Haichao Miao. Release number - LLNL-MISC-833578. All rights reserved. This work was produced under the auspices of the U.S. Department of Energy by Lawrence Livermore National Laboratory under Contract DE-AC52-07NA27344. This work was prepared as an account of work sponsored by an agency of the United States Government. Neither the United States Government nor Lawrence Livermore National Security, LLC, nor any of their employees makes any warranty, expressed or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, or represents that its use would not infringe privately owned rights. Reference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise does not necessarily constitute or imply its endorsement, recommendation, or favoring by the United States Government or Lawrence Livermore National Security, LLC. The views and opinions of authors expressed herein do not necessarily state or reflect those of the United States Government or Lawrence Livermore National Security, LLC, and shall not be used for advertising or product endorsement purposes.
+
 </details>
 
 ### tacc_turbulence
@@ -1396,6 +1486,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/tacc_turbulence.ome.zarr)**
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/tacc_turbulence.ome.zarr)**
+
+**Acknowledgement:** Dataset provided by Gregory D. Abram and Gregory P. Johnson, Texas Advanced Computing Center, The University of Texas at Austin. Simulation by Diego A. Donzis, Texas A&M University, P.K. Yeung, Georgia Tech.
 
 </details>
 
@@ -1425,6 +1517,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/tooth.ome.zarr)**
 
+**Acknowledgement:** 
+
 </details>
 
 ### vertebra
@@ -1452,6 +1546,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/vertebra.ome.zarr)**
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/vertebra.ome.zarr)**
+
+**Acknowledgement:** volvis.org and Michael Meißner, Viatronix Inc., USA
 
 </details>
 
@@ -1481,6 +1577,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/vis_male.ome.zarr)**
 
+**Acknowledgement:** National Library of Medicine, National Institutes of Health, USA
+
 </details>
 
 ### woodbranch
@@ -1509,6 +1607,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/woodbranch.ome.zarr)**
 
+**Acknowledgement:** The Computer-Assisted Paleoanthropology group and the Visualization and MultiMedia Lab at University of Zurich (UZH)
+
 </details>
 
 ### zeiss
@@ -1536,6 +1636,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 **[Interactive visualization](https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/zeiss.ome.zarr)**
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/zeiss.ome.zarr)**
+
+**Acknowledgement:** Steffen Frey and Daimler AG
 
 </details>
 

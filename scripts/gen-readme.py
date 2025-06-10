@@ -187,6 +187,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
         fp.write(f"**Dataset S3 URL:** {s3_url}\n\n")
         fp.write(f"**[Interactive visualization]({preview_url})**\n\n")
         fp.write(f"**[Interactive structure]({structure_url})**\n\n")
+        fp.write(f"**Acknowledgement:** {dataset['acknowledgement']}\n\n")
         fp.write(f"</details>\n")
 
     fp.write("\n### Sorted by number of voxels\n")
