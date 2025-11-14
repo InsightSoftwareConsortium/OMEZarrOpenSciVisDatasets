@@ -37,9 +37,11 @@ with open('./README.md', 'w') as fp:
     fp.write("# OME-Zarr Open SciVis Datasets\n")
 
     ome_zarr_intro = """
+[![DOI](https://zenodo.org/badge/856568248.svg)](https://doi.org/10.5281/zenodo.17495293)
+
 ![engine](./thumbnails/small/engine.webp)
 
-> The OME-Zarr Open SciVis Datasets project provides the Open SciVis Dataset in a chunked, multi-scale format, encodes metadata in JSON according to the OME-Zarr specification, and hosts the datasets on AWS S3 through the AWS Open Data Program, aiming to serve as a web-based resource for the scientific visualization community to enhance reproducibility and facilitate testing and development of OME-Zarr tools.
+> The [OME-Zarr Open SciVis Datasets](https://registry.opendata.aws/ome-zarr-open-scivis/) project provides the Open SciVis Dataset in a chunked, multi-scale format, encodes metadata in JSON according to the OME-Zarr specification, and hosts the datasets on AWS S3 through the AWS Open Data Program, aiming to serve as a web-based resource for the scientific visualization community to enhance reproducibility and facilitate testing and development of OME-Zarr tools.
 
 ## Table of Contents
 
@@ -172,6 +174,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
         s3_url = f"s3://ome-zarr-scivis/v0.5/96x2/{dataset_name}.ome.zarr"
         https_url = f"https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2/{dataset_name}.ome.zarr"
+        ozx_s3_url = f"s3://ome-zarr-scivis/v0.5/96x2-ozx/{dataset_name}.ozx"
+        ozx_https_url = f"https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x2-ozx/{dataset_name}.ozx"
         preview_url = f"https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/{dataset_name}.ome.zarr"
         structure_url = f"https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/{dataset_name}.ome.zarr"
 
@@ -185,6 +189,8 @@ By combining the high-quality datasets from the Open SciVis collection with the 
         fp.write(f"**Dataset Scales:** {scales}\n\n")
         fp.write(f"**Dataset HTTPS URL:** {https_url}\n\n")
         fp.write(f"**Dataset S3 URL:** {s3_url}\n\n")
+        fp.write(f"**Dataset OZX HTTPS URL:** {ozx_https_url}\n\n")
+        fp.write(f"**Dataset OZX S3 URL:** {ozx_s3_url}\n\n")
         fp.write(f"**[Interactive visualization]({preview_url})**\n\n")
         fp.write(f"**[Interactive structure]({structure_url})**\n\n")
         fp.write(f"**Acknowledgement:** {dataset['acknowledgement']}\n\n")
@@ -231,6 +237,8 @@ The OME-Zarr Open SciVis Datasets are freely available for download and use by t
 
 ### Python Loading Example
 
+#### Loading Directory Store (.ome.zarr)
+
 To load a dataset in Python, use the following example code:
 
 ```shell
@@ -252,6 +260,7 @@ multiscales = nz.from_ngff_zarr(store)
 
 print(multiscales)
 ```
+
 ------
 
 ```python
@@ -328,6 +337,20 @@ Version 0.4 (Zarr 2-based), and Version 0.5 (Zarr 3-based).
 - 0.4 : OME-Zarr Version 0.4
 - 0.5 : OME-Zarr Version 0.5
 
+#### Storage Format
+
+Datasets are available in two storage formats:
+
+- **Directory Store** (`.ome.zarr`): Traditional multi-file OME-Zarr format stored in a directory hierarchy
+- **Zipped OME-Zarr** (`.ozx`): Single-file ZIP archive format as specified in [RFC-9](https://github.com/ome/ngff/blob/main/rfc/9/index.md)
+
+The `.ozx` format provides a single-file storage container for OME-Zarr hierarchies, 
+improving user experience in conventional file-based workflows while maintaining all 
+OME-Zarr features. This format is particularly useful for:
+- Easier file sharing and distribution
+- Integration with file-centric applications
+- Simplified data management on local filesystems
+
 #### chunks
 
 Datasets are also available with different z,y,x chunk sizes.
@@ -347,12 +370,20 @@ sharding settings.
 
 For OME-Zarr v0.4, only `0` (no sharding) is available.
 
+Note: `.ozx` files are currently only generated for OME-Zarr v0.5 with sharding enabled 
+(chunks-per-shard = 2), following RFC-9 recommendations for optimal single-file performance.
+
 #### URL format
 
 The URL formats are:
 
+**Directory Store:**
 - https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v{version}/{chunks}x{shards}/{dataset_name}.ome.zarr
 - s3://ome-zarr-scivis/v{version}/{chunks}x{shards}/{dataset_name}.ome.zarr
+
+**Zipped OME-Zarr (.ozx):**
+- https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v{version}/{chunks}x{shards}-ozx/{dataset_name}.ozx
+- s3://ome-zarr-scivis/v{version}/{chunks}x{shards}-ozx/{dataset_name}.ozx
 
 """
     fp.write(usage_text)
