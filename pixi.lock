@@ -5,6 +5,8 @@ environments:
     - url: https://conda.anaconda.org/conda-forge/
     indexes:
     - https://pypi.org/simple
+    options:
+      pypi-prerelease-mode: if-necessary-or-explicit
     packages:
       linux-64:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/_libgcc_mutex-0.1-conda_forge.tar.bz2
@@ -262,14 +264,14 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/78/d4/e5d7e4f2174f8a4d63c8897d79eb8fe2503f7ecc03282fee1fa2719c2704/httpcore-1.0.5-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/56/95/9377bcb415797e44274b51d46e3249eba641711cf3348050f76ee7b15ffc/httpx-0.27.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/e1/6a/4604f9ae2fa62ef47b9de2fa5ad599589d28c9fd1d335f32759813dfa91e/importlib_resources-6.4.5-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/c5/6c/ec29bb30f92da58190962441ac80d76b2a3fb794d6eaa2cd1f791c34e536/itk_core-5.4.3-cp311-abi3-manylinux_2_28_x86_64.whl
-      - pypi: https://files.pythonhosted.org/packages/05/bb/737e4876af096af3d2c8e028c384131207bee3d91b8c700b2592c9b4de4a/itk_io-5.4.3-cp311-abi3-manylinux_2_28_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/e8/55/e419ddaf0d4591e19d87e1c4b57905e0a8231f33449cd2298c3c67cc7a07/itk_core-5.4.5-cp311-abi3-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/17/fc/3c1372cfc1b4ac7fff6fa7a010b71c4e7988e54b573b5fe93b8282520b4e/itk_io-5.4.5-cp311-abi3-manylinux_2_28_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/fc/54/0fc399d374f1ee6e8494548419fe924188c7c7a04b646018c9818a6509e1/itkwasm-1.0b189-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/12/c6/906a1c94a9e0d12b6cbc8a36d6fe284d06298d3d3eda14934d21609845ab/itkwasm_downsample-1.8.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/80/8e/9c51b9d074517a5ff57ba2448319bd61cf6a7ed0c585f43dcc6ca743298d/itkwasm_downsample_wasi-1.4.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/42/d7/1ec15b46af6af88f19b8e5ffea08fa375d433c998b8a7639e76935c14f1f/markdown_it_py-3.0.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/a0/25/498fc8fb61ad5f1d6aadf0ab9b9a1c354df13b23427fec0cd03f99f2bb86/ngff_zarr-0.19.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/b7/40/de85db98b6679628af914ac2e8686799cf75614348a691c55f962bd0595a/ngff_zarr-0.24.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/da/8b/d497999c4017b80678017ddce745cf675489c110681ad3c84a55eddfd3e7/platformdirs-4.3.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/f7/3f/01c8b82017c199075f8f788d0d906b9ffbbc5a47dc9918a945e13d5a2bda/pygments-2.18.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/c7/d9/c2a126eeae791e90ea099d05cb0515feea3688474b978343f3cdcfe04523/rich-13.8.0-py3-none-any.whl
@@ -1403,19 +1405,19 @@ packages:
   - jaraco-test>=5.4 ; extra == 'test'
   - pytest-mypy ; extra == 'type'
   requires_python: '>=3.8'
-- pypi: https://files.pythonhosted.org/packages/c5/6c/ec29bb30f92da58190962441ac80d76b2a3fb794d6eaa2cd1f791c34e536/itk_core-5.4.3-cp311-abi3-manylinux_2_28_x86_64.whl
+- pypi: https://files.pythonhosted.org/packages/e8/55/e419ddaf0d4591e19d87e1c4b57905e0a8231f33449cd2298c3c67cc7a07/itk_core-5.4.5-cp311-abi3-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
   name: itk-core
-  version: 5.4.3
-  sha256: 1dc35521b1420800015b485f16e56c676de93318a5c93ff43c0dbf395716e4a9
+  version: 5.4.5
+  sha256: f16b9703ac45f1926a0f55dd07b7881028933b1c3da0b31cddabd0eb12417440
   requires_dist:
   - numpy
   requires_python: '>=3.8'
-- pypi: https://files.pythonhosted.org/packages/05/bb/737e4876af096af3d2c8e028c384131207bee3d91b8c700b2592c9b4de4a/itk_io-5.4.3-cp311-abi3-manylinux_2_28_x86_64.whl
+- pypi: https://files.pythonhosted.org/packages/17/fc/3c1372cfc1b4ac7fff6fa7a010b71c4e7988e54b573b5fe93b8282520b4e/itk_io-5.4.5-cp311-abi3-manylinux_2_28_x86_64.whl
   name: itk-io
-  version: 5.4.3
-  sha256: 1feb207344612238acda3197a060f73f9fac412ee9b90f66c6bd07e2bda3d95b
+  version: 5.4.5
+  sha256: 3429559a6ce23500444c945dc8a373a2a60e01b7f02740b67a65df6f36b3a83d
   requires_dist:
-  - itk-core==5.4.3
+  - itk-core==5.4.5
   requires_python: '>=3.8'
 - pypi: https://files.pythonhosted.org/packages/fc/54/0fc399d374f1ee6e8494548419fe924188c7c7a04b646018c9818a6509e1/itkwasm-1.0b189-py3-none-any.whl
   name: itkwasm
@@ -2736,12 +2738,12 @@ packages:
   purls: []
   size: 889086
   timestamp: 1724658547447
-- pypi: https://files.pythonhosted.org/packages/a0/25/498fc8fb61ad5f1d6aadf0ab9b9a1c354df13b23427fec0cd03f99f2bb86/ngff_zarr-0.19.0-py3-none-any.whl
+- pypi: https://files.pythonhosted.org/packages/b7/40/de85db98b6679628af914ac2e8686799cf75614348a691c55f962bd0595a/ngff_zarr-0.24.0-py3-none-any.whl
   name: ngff-zarr
-  version: 0.19.0
-  sha256: 6a77ed331140eec3e7d7022af3d14ab604612e67caa64a8d2cfa4698b2bfc86d
+  version: 0.24.0
+  sha256: cc925e5b090a55b856b2fa14c453c03de9eb51d6e3c8ad915119ebc778aa0d66
   requires_dist:
-  - dask[array]
+  - dask[array]!=2025.12.0,!=2026.1.0,!=2026.1.1
   - importlib-resources
   - itkwasm-downsample>=1.8.0
   - itkwasm>=1.0b183
@@ -2762,6 +2764,7 @@ packages:
   - itk-io>=5.3.0 ; extra == 'all'
   - itkwasm-image-io ; extra == 'all'
   - jsonschema ; extra == 'all'
+  - liffile ; extra == 'all'
   - myst-parser>=3.0.1,<4 ; extra == 'all'
   - nibabel ; extra == 'all'
   - pooch ; extra == 'all'
@@ -2781,6 +2784,7 @@ packages:
   - itk-filtering>=5.3.0 ; extra == 'cli'
   - itk-io>=5.3.0 ; extra == 'cli'
   - itkwasm-image-io ; extra == 'cli'
+  - liffile ; extra == 'cli'
   - nibabel ; extra == 'cli'
   - tifffile>=2024.7.24 ; extra == 'cli'
   - dask-image ; extra == 'dask-image'
@@ -2798,7 +2802,7 @@ packages:
   - pooch ; extra == 'test'
   - pytest>=6 ; extra == 'test'
   - jsonschema ; extra == 'validate'
-  requires_python: '>=3.9'
+  requires_python: '>=3.10'
 - conda: https://conda.anaconda.org/conda-forge/linux-64/nlohmann_json-3.12.0-h3f2d84a_0.conda
   sha256: e2fc624d6f9b2f1b695b6be6b905844613e813aa180520e73365062683fe7b49
   md5: d76872d096d063e226482c99337209dc
