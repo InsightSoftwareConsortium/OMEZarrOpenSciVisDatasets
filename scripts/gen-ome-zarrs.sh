@@ -48,16 +48,17 @@ fi
 for f in ${input_dir}/**/*.nhdr; do
   echo "Processing $f..."
   name=$(basename $f .nhdr)
-  
+
   # Set output extension based on ozx flag
   if [ "$ozx" = true ]; then
     output_ext=".ozx"
   else
     output_ext=".ome.zarr"
   fi
-  
+
   ngff-zarr \
     --method dask_image_gaussian \
+    --omero-dense \
     --input-backend itk \
     --chunks "$chunks" \
     --ome-zarr-version "${version}" \
