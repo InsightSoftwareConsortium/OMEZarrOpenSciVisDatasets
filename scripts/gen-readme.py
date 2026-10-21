@@ -331,11 +331,13 @@ For additional tools to read or visualize OME-Zarr datasets, see the
 
 #### version
 
-All datasets are currently available in two OME-Zarr format versions,
-Version 0.4 (Zarr 2-based), and Version 0.5 (Zarr 3-based).
+All datasets are currently available in three OME-Zarr format versions,
+Version 0.4 (Zarr 2-based), Version 0.5 (Zarr 3-based), and Version 0.6
+(Zarr 3-based, with coordinate systems and transformations).
 
 - 0.4 : OME-Zarr Version 0.4
 - 0.5 : OME-Zarr Version 0.5
+- 0.6 : OME-Zarr Version 0.6
 
 #### Storage Format
 
@@ -361,7 +363,7 @@ Datasets are also available with different z,y,x chunk sizes.
 
 #### shards
 
-For the OME-Zarr v0.5, datasets, datasets are also available with different
+For the OME-Zarr v0.5 and v0.6 datasets, datasets are also available with different
 sharding settings.
 
 - 0 : 0x0x0 (no sharding)
@@ -370,7 +372,7 @@ sharding settings.
 
 For OME-Zarr v0.4, only `0` (no sharding) is available.
 
-Note: `.ozx` files are currently only generated for OME-Zarr v0.5 with sharding enabled 
+Note: `.ozx` files are currently only generated for OME-Zarr v0.5 and v0.6 with sharding enabled 
 (chunks-per-shard = 2), following RFC-9 recommendations for optimal single-file performance.
 
 #### URL format
