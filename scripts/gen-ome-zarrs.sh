@@ -59,6 +59,7 @@ for f in ${input_dir}/**/*.nhdr; do
   ngff-zarr \
     --method dask_image_gaussian \
     --omero-dense \
+    --no-orientation \
     --input-backend itk \
     --chunks "$chunks" \
     --ome-zarr-version "${version}" \
