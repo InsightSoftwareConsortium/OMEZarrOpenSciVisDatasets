@@ -6,7 +6,6 @@ import sys
 import json
 
 import ngff_zarr as nz
-import zarr.storage
 
 def get_datasets_json():
     input_datasets_json="data/open-scivis-datasets/datasets.json"
@@ -179,12 +178,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
         preview_url = f"https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/{dataset_name}.ome.zarr"
         structure_url = f"https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/{dataset_name}.ome.zarr"
 
-        store = zarr.storage.FsspecStore.from_url(
-            s3_url,
-            read_only=True,
-            storage_options={'anon':True}
-        )
-        multiscales = nz.from_ngff_zarr(store)
+        multiscales = nz.from_ngff_zarr(s3_url, storage_options={'anon':True})
         scales = len(multiscales.images)
         fp.write(f"**Dataset Scales:** {scales}\n\n")
         fp.write(f"**Dataset HTTPS URL:** {https_url}\n\n")
@@ -242,21 +236,18 @@ The OME-Zarr Open SciVis Datasets are freely available for download and use by t
 To load a dataset in Python, use the following example code:
 
 ```shell
-pip install ngff-zarr s3fs matplotlib
+pip install "ngff-zarr[remote]" rich matplotlib
 ```
 
 ```python
 import ngff_zarr as nz
-import zarr.storage
 from rich import print
 from matplotlib import pyplot as plt
 
-store = zarr.storage.FsspecStore.from_url(
+multiscales = nz.from_ngff_zarr(
   's3://ome-zarr-scivis/v0.5/64x2/engine.ome.zarr',
-  read_only=True,
   storage_options={'anon':True}
 )
-multiscales = nz.from_ngff_zarr(store)
 
 print(multiscales)
 ```

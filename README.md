@@ -218,7 +218,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 ### blunt_fin
 ![blunt_fin](./thumbnails/small/blunt_fin.webp)
 
->
+> 
 
 <details>
 <summary>Details</summary>
@@ -1680,7 +1680,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 ### tooth
 ![tooth](./thumbnails/small/tooth.webp)
 
->
+> 
 
 <details>
 <summary>Details</summary>
@@ -1707,7 +1707,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
 
 **[Interactive structure](https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/tooth.ome.zarr)**
 
-**Acknowledgement:**
+**Acknowledgement:** 
 
 </details>
 
@@ -1969,21 +1969,18 @@ The OME-Zarr Open SciVis Datasets are freely available for download and use by t
 To load a dataset in Python, use the following example code:
 
 ```shell
-pip install ngff-zarr s3fs matplotlib
+pip install "ngff-zarr[remote]" rich matplotlib
 ```
 
 ```python
 import ngff_zarr as nz
-import zarr.storage
 from rich import print
 from matplotlib import pyplot as plt
 
-store = zarr.storage.FsspecStore.from_url(
+multiscales = nz.from_ngff_zarr(
   's3://ome-zarr-scivis/v0.5/64x2/engine.ome.zarr',
-  read_only=True,
   storage_options={'anon':True}
 )
-multiscales = nz.from_ngff_zarr(store)
 
 print(multiscales)
 ```
@@ -2073,8 +2070,8 @@ Datasets are available in two storage formats:
 - **Directory Store** (`.ome.zarr`): Traditional multi-file OME-Zarr format stored in a directory hierarchy
 - **Zipped OME-Zarr** (`.ozx`): Single-file ZIP archive format as specified in [RFC-9](https://github.com/ome/ngff/blob/main/rfc/9/index.md)
 
-The `.ozx` format provides a single-file storage container for OME-Zarr hierarchies,
-improving user experience in conventional file-based workflows while maintaining all
+The `.ozx` format provides a single-file storage container for OME-Zarr hierarchies, 
+improving user experience in conventional file-based workflows while maintaining all 
 OME-Zarr features. This format is particularly useful for:
 - Easier file sharing and distribution
 - Integration with file-centric applications
@@ -2099,7 +2096,7 @@ sharding settings.
 
 For OME-Zarr v0.4, only `0` (no sharding) is available.
 
-Note: `.ozx` files are currently only generated for OME-Zarr v0.5 and v0.6 with sharding enabled
+Note: `.ozx` files are currently only generated for OME-Zarr v0.5 and v0.6 with sharding enabled 
 (chunks-per-shard = 2), following RFC-9 recommendations for optimal single-file performance.
 
 #### URL format

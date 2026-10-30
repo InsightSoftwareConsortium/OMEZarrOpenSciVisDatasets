@@ -281,6 +281,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/7e/f5/f66802a942d491edb555dd61e3a9961140fd64c90bce1eafd741609d334d/httpcore-1.0.9-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/87/ba/7bc868a8a4c5eb7bf9260a142387c5fb594101902ab6ccad22e59ed5fd2f/ngff_zarr-0.50.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/8a/db/55a262f3606bebcae07cc14095338471ad7c0bbcaa37707e6f0ee49725b7/importlib_resources-7.1.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/9f/de/dc6eb84ef8d1f96af626c83b3da436b1a4d6b89aa52b560d4451f9ca8ef8/obstore-0.12.1-cp311-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/a8/4a/67f4e98c62659da186013cf1855cb30bf5d6be7ceb458faa4524b40153be/itkwasm_downsample_wasi-2.0.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b2/1a/f5e892909992c91e18b05f45237391ce0af54732a7cb393a79607fea0806/zarr_metadata-0.5.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl
@@ -4685,6 +4686,13 @@ packages:
   - pytest-enabler>=3.4 ; extra == 'enabler'
   - pytest-mypy>=1.0.1 ; platform_python_implementation != 'PyPy' and extra == 'type'
   requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/9f/de/dc6eb84ef8d1f96af626c83b3da436b1a4d6b89aa52b560d4451f9ca8ef8/obstore-0.12.1-cp311-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+  name: obstore
+  version: 0.12.1
+  sha256: d31b255aec88d37636d374a651f5efc684c89716ab64dea6ac89d75801933af2
+  requires_dist:
+  - typing-extensions ; python_full_version < '3.13'
+  requires_python: '>=3.11'
 - pypi: https://files.pythonhosted.org/packages/a8/4a/67f4e98c62659da186013cf1855cb30bf5d6be7ceb458faa4524b40153be/itkwasm_downsample_wasi-2.0.2-py3-none-any.whl
   name: itkwasm-downsample-wasi
   version: 2.0.2
