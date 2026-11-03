@@ -6,7 +6,6 @@ import sys
 import json
 
 import ngff_zarr as nz
-import zarr.storage
 
 def get_datasets_json():
     input_datasets_json="data/open-scivis-datasets/datasets.json"
@@ -179,12 +178,7 @@ By combining the high-quality datasets from the Open SciVis collection with the 
         preview_url = f"https://kitware.github.io/itk-vtk-viewer/app/?image=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.4/96x0/{dataset_name}.ome.zarr"
         structure_url = f"https://ome.github.io/ome-ngff-validator/?source=https://ome-zarr-scivis.s3.us-east-1.amazonaws.com/v0.5/96x0/{dataset_name}.ome.zarr"
 
-        store = zarr.storage.FsspecStore.from_url(
-            s3_url,
-            read_only=True,
-            storage_options={'anon':True}
-        )
-        multiscales = nz.from_ngff_zarr(store)
+        multiscales = nz.from_ngff_zarr(s3_url, storage_options={'anon':True})
         scales = len(multiscales.images)
         fp.write(f"**Dataset Scales:** {scales}\n\n")
         fp.write(f"**Dataset HTTPS URL:** {https_url}\n\n")
@@ -242,21 +236,18 @@ The OME-Zarr Open SciVis Datasets are freely available for download and use by t
 To load a dataset in Python, use the following example code:
 
 ```shell
-pip install ngff-zarr s3fs matplotlib
+pip install "ngff-zarr[remote]" rich matplotlib
 ```
 
 ```python
 import ngff_zarr as nz
-import zarr.storage
 from rich import print
 from matplotlib import pyplot as plt
 
-store = zarr.storage.FsspecStore.from_url(
+multiscales = nz.from_ngff_zarr(
   's3://ome-zarr-scivis/v0.5/64x2/engine.ome.zarr',
-  read_only=True,
   storage_options={'anon':True}
 )
-multiscales = nz.from_ngff_zarr(store)
 
 print(multiscales)
 ```
@@ -264,52 +255,121 @@ print(multiscales)
 ------
 
 ```python
-Multiscales(
+NgffMultiscales(
     images=[
         NgffImage(
-            data=dask.array<from-zarr, shape=(128, 256, 256), dtype=uint8, chunksize=(64, 64, 64), chunktype=numpy.ndarray>,
-            dims=['z', 'y', 'x'],
+            data=dask.array<array, shape=(128, 256, 256), dtype=uint8, chunksize=(64, 64, 64), chunktype=numpy.ndarray>,
+            dims=('z', 'y', 'x'),
             scale={'z': 1.0, 'y': 1.0, 'x': 1.0},
             translation={'z': -64.0, 'y': -128.0, 'x': -128.0},
-            name='image',
+            name='engine',
             axes_units={'z': None, 'y': None, 'x': None},
+            axes_orientations=None,
+            axes_types=None,
+            channel_names=None,
+            channel_colors=None,
             computed_callbacks=[]
         ),
         NgffImage(
-            data=dask.array<from-zarr, shape=(128, 128, 128), dtype=uint8, chunksize=(64, 64, 64), chunktype=numpy.ndarray>,
-            dims=['z', 'y', 'x'],
+            data=dask.array<array, shape=(128, 128, 128), dtype=uint8, chunksize=(64, 64, 64), chunktype=numpy.ndarray>,
+            dims=('z', 'y', 'x'),
             scale={'z': 1.0, 'y': 2.0, 'x': 2.0},
             translation={'z': -64.0, 'y': -127.5, 'x': -127.5},
-            name='image',
+            name='engine',
             axes_units={'z': None, 'y': None, 'x': None},
+            axes_orientations=None,
+            axes_types=None,
+            channel_names=None,
+            channel_colors=None,
+            computed_callbacks=[]
+        ),
+        NgffImage(
+            data=dask.array<array, shape=(64, 64, 64), dtype=uint8, chunksize=(64, 64, 64), chunktype=numpy.ndarray>,
+            dims=('z', 'y', 'x'),
+            scale={'z': 2.0, 'y': 4.0, 'x': 4.0},
+            translation={'z': -63.5, 'y': -126.5, 'x': -126.5},
+            name='engine',
+            axes_units={'z': None, 'y': None, 'x': None},
+            axes_orientations=None,
+            axes_types=None,
+            channel_names=None,
+            channel_colors=None,
             computed_callbacks=[]
         )
     ],
     metadata=Metadata(
-        axes=[Axis(name='z', type='space', unit=None), Axis(name='y', type='space', unit=None), Axis(name='x', type='space', unit=None)],
+        coordinateSystems=[
+            CoordinateSystem(
+                name='intrinsic',
+                axes=[
+                    Axis(name='z', type='space', unit=None, orientation=None),
+                    Axis(name='y', type='space', unit=None, orientation=None),
+                    Axis(name='x', type='space', unit=None, orientation=None)
+                ]
+            )
+        ],
         datasets=[
             Dataset(
                 path='scale0/engine',
                 coordinateTransformations=[
-                    Scale(scale=[1.0, 1.0, 1.0], type='scale'),
-                    Translation(translation=[-64.0, -128.0, -128.0], type='translation')
+                    TransformSequence(
+                        input=CoordinateSystemIdentifier(path='scale0/engine', name=None),
+                        output=CoordinateSystemIdentifier(path=None, name='intrinsic'),
+                        name='scale0_to_intrinsic',
+                        type='sequence',
+                        transformations=[
+                            Scale(input=None, output=None, name=None, type='scale', scale=[1.0, 1.0, 1.0]),
+                            Translation(input=None, output=None, name=None, type='translation', translation=[-64.0, -128.0, -128.0])
+                        ]
+                    )
                 ]
             ),
             Dataset(
                 path='scale1/engine',
                 coordinateTransformations=[
-                    Scale(scale=[1.0, 2.0, 2.0], type='scale'),
-                    Translation(translation=[-64.0, -127.5, -127.5], type='translation')
+                    TransformSequence(
+                        input=CoordinateSystemIdentifier(path='scale1/engine', name=None),
+                        output=CoordinateSystemIdentifier(path=None, name='intrinsic'),
+                        name='scale1_to_intrinsic',
+                        type='sequence',
+                        transformations=[
+                            Scale(input=None, output=None, name=None, type='scale', scale=[1.0, 2.0, 2.0]),
+                            Translation(input=None, output=None, name=None, type='translation', translation=[-64.0, -127.5, -127.5])
+                        ]
+                    )
+                ]
+            ),
+            Dataset(
+                path='scale2/engine',
+                coordinateTransformations=[
+                    TransformSequence(
+                        input=CoordinateSystemIdentifier(path='scale2/engine', name=None),
+                        output=CoordinateSystemIdentifier(path=None, name='intrinsic'),
+                        name='scale2_to_intrinsic',
+                        type='sequence',
+                        transformations=[
+                            Scale(input=None, output=None, name=None, type='scale', scale=[2.0, 4.0, 4.0]),
+                            Translation(input=None, output=None, name=None, type='translation', translation=[-63.5, -126.5, -126.5])
+                        ]
+                    )
                 ]
             )
         ],
         coordinateTransformations=None,
-        omero=None,
-        name='image'
+        omero=Omero(channels=[OmeroChannel(color='FFFFFF', window=OmeroWindow(min=0.0, max=255.0, start=0.99609375, end=150.26430184834047), label='')]),
+        name='engine',
+        type='dask_image_gaussian',
+        metadata=MethodMetadata(
+            description='Smoothed with a discrete gaussian filter to generate a scale space, ideal for intensity images. dask-image implementation based on scipy.',
+            method='dask_image.ndfilters.gaussian_filter',
+            version='2024.5.3'
+        ),
+        extra={}
     ),
     scale_factors=None,
-    method=None,
-    chunks=None"
+    method=<Methods.DASK_IMAGE_GAUSSIAN: 'dask_image_gaussian'>,
+    chunks=None,
+    root_attributes=None
 )
 ```
 
@@ -331,11 +391,13 @@ For additional tools to read or visualize OME-Zarr datasets, see the
 
 #### version
 
-All datasets are currently available in two OME-Zarr format versions,
-Version 0.4 (Zarr 2-based), and Version 0.5 (Zarr 3-based).
+All datasets are currently available in three OME-Zarr format versions,
+Version 0.4 (Zarr 2-based), Version 0.5 (Zarr 3-based), and Version 0.6
+(Zarr 3-based, with coordinate systems and transformations).
 
 - 0.4 : OME-Zarr Version 0.4
 - 0.5 : OME-Zarr Version 0.5
+- 0.6 : OME-Zarr Version 0.6
 
 #### Storage Format
 
@@ -361,7 +423,7 @@ Datasets are also available with different z,y,x chunk sizes.
 
 #### shards
 
-For the OME-Zarr v0.5, datasets, datasets are also available with different
+For the OME-Zarr v0.5 and v0.6 datasets, datasets are also available with different
 sharding settings.
 
 - 0 : 0x0x0 (no sharding)
@@ -370,7 +432,7 @@ sharding settings.
 
 For OME-Zarr v0.4, only `0` (no sharding) is available.
 
-Note: `.ozx` files are currently only generated for OME-Zarr v0.5 with sharding enabled 
+Note: `.ozx` files are currently only generated for OME-Zarr v0.5 and v0.6 with sharding enabled 
 (chunks-per-shard = 2), following RFC-9 recommendations for optimal single-file performance.
 
 #### URL format

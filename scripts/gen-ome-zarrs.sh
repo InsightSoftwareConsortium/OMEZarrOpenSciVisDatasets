@@ -38,7 +38,7 @@ fi
 mkdir -p $output_dir
 
 chunks_per_shard_args=()
-if [ "$chunks_per_shard" -gt 0 -a "$version" == "0.4" ]; then
+if [ "$chunks_per_shard" -gt 0 -a "$version" != "0.4" ]; then
   chunks_per_shard_args=("--chunks-per-shard" "$chunks_per_shard")
 fi
 
@@ -59,6 +59,7 @@ for f in ${input_dir}/**/*.nhdr; do
   ngff-zarr \
     --method dask_image_gaussian \
     --omero-dense \
+    --no-orientation \
     --input-backend itk \
     --chunks "$chunks" \
     --ome-zarr-version "${version}" \
